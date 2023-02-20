@@ -1,0 +1,19 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-GB"
+  ],
+  "vimMode": true,
+  "promptDelete": false,
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "Attachments",
+  "newLinkFormat": "relative",
+  "userIgnoreFilters": [
+    "Attachments/"
+  ]
+}

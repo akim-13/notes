@@ -1,0 +1,130 @@
+{
+  "main": {
+    "id": "e172a754041b9641",
+    "type": "split",
+    "children": [
+      {
+        "id": "50e64496d8ef08e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7f4d4704b3eda68",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d83d1f968a4604a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2731e9fe5692e7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3143a87a566d689",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "992a661f3874999c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#math/hi",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256.50390243530273
+  },
+  "right": {
+    "id": "1f503a3ce2fd7a72",
+    "type": "split",
+    "children": [
+      {
+        "id": "87632fecbb90e26d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8cbb66b690fbc3a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c5afc6167d8f9193",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "templates:Insert template": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "f7f4d4704b3eda68",
+  "lastOpenFiles": [
+    "Harmonic Motion.md",
+    "Attachments/Excalidraw/AAM3B.1.4.md",
+    "Attachments/Excalidraw/AAM3B.1.6.md",
+    "Attachments/Excalidraw/AAM3B.1.8.md",
+    "Chain Rule.md",
+    "Homogeneous SDEs.md",
+    "Attachments/Untitled.md",
+    "Attachments/Excalidraw/FS2.ME5.md",
+    "L'Hopital's Rule.md",
+    "Non-homogeneous SDEs.md"
+  ]
+}

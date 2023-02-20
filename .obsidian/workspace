@@ -1,0 +1,104 @@
+{
+  "main": {
+    "id": "e172a754041b9641",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6b9e03cf0992784",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Vectors.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d83d1f968a4604a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2731e9fe5692e7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3143a87a566d689",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "992a661f3874999c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "backbone",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 204,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1f503a3ce2fd7a72",
+    "type": "split",
+    "children": [
+      {
+        "id": "87632fecbb90e26d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8cbb66b690fbc3a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vectors.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c6b9e03cf0992784",
+  "lastOpenFiles": [
+    "Economics/Aggregate supply.md",
+    "Economics/Aggregate demand.md",
+    "Economics/Demerit good.md",
+    "Economics/Circular flow of income.md",
+    "Attachments/circular_flow_leakages_injections.png",
+    "Economics/The economic cycle.md",
+    "Economics/Wider economic environment.md",
+    "Economics/Taxation.md",
+    "Economics/Regulation.md",
+    "Economics/Public good.md"
+  ]
+}

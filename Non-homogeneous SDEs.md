@@ -26,7 +26,7 @@ The general solution of the C.F. is called the **complementary solution (C.S.)**
     where $\lambda, \mu$ and $\nu$ are the coefficients to be found by equating them to the corresponding coefficients of $f(x)$.
 
 * **To find the general solution** of a linear non-homogeneous SDE (1):
-    1) Solve $a\frac{\mathrm{d}^{2}y}{\mathrm{d}x^{2}} + b\frac{\mathrm{d}y}{\mathrm{d}x} + cy=0$ to find the C.S.
+    1) [[Homogeneous SDEs#^solve-homogeneous-sde|Solve]] $a\frac{\mathrm{d}^{2}y}{\mathrm{d}x^{2}} + b\frac{\mathrm{d}y}{\mathrm{d}x} + cy=0$ to find the C.S.
     2) Find a P.I. by guessing its form, and equating the coefficients to the coefficient of $f(x)$
     3) $y = \text{C.S.} + \text{P.I.}$
 

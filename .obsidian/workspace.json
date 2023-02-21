@@ -11,8 +11,48 @@
             "id": "f7f4d4704b3eda68",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Solving Inequalities.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "53cde5af91663772",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Simple Harmonic Motion (SHM).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "487b50eaee594c89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Special Integrals.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d6e54d034a25f052",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "First-order Differential Equations (FDEs).md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#math/hi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.50390243530273
+    "width": 256.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "1f503a3ce2fd7a72",
@@ -73,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Solving Inequalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,15 +158,15 @@
   },
   "active": "f7f4d4704b3eda68",
   "lastOpenFiles": [
+    "Attachments/Excalidraw/Solving Inequalities 2023-02-10_18.32.58.md",
+    "Attachments/Excalidraw/AAM3B.1.5.md",
+    "Non-homogeneous SDEs.md",
+    "First-order Differential Equations (FDEs).md",
+    "Special Integrals.md",
+    "Simple Harmonic Motion (SHM).md",
+    "Homogeneous SDEs.md",
     "Harmonic Motion.md",
     "Attachments/Excalidraw/AAM3B.1.4.md",
-    "Attachments/Excalidraw/AAM3B.1.6.md",
-    "Attachments/Excalidraw/AAM3B.1.8.md",
-    "Chain Rule.md",
-    "Homogeneous SDEs.md",
-    "Attachments/Untitled.md",
-    "Attachments/Excalidraw/FS2.ME5.md",
-    "L'Hopital's Rule.md",
-    "Non-homogeneous SDEs.md"
+    "Attachments/Excalidraw/AAM3B.1.6.md"
   ]
 }

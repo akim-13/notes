@@ -1,3 +1,6 @@
+---
+tags: Math, Math/Pure
+---
 # Chain Rule
 * The **chain rule** allows to differentiate composite functions, such as $y = f(g(x))$:
 $$ \frac{\mathrm{d}y}{\mathrm{d}x} = \frac{\mathrm{d}f}{\mathrm{d}g} \frac{\mathrm{d}g}{\mathrm{d}x} \tag{1} $$ 

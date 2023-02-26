@@ -1,5 +1,8 @@
+---
+tags: Math, Math/Pure, Math/Applied
+---
 # First-order Differential Equations (FDEs)
-* **First-order differential equation (FDE)** is a [[./Differential Equations.md|differential equation]] of the form $f(y, \frac{dy}{dx}) = g(x)$.
+* **First-order differential equation (FDE)** is a [[Differential Equations.md|differential equation]] of the form $f(y, \frac{dy}{dx}) = g(x)$.
 
 * FDE of the form $\frac{\mathrm{d}y}{\mathrm{d}x} = f(x)g(y)$ is solved by **separating the variables**:
 $$
@@ -42,6 +45,18 @@ $$
 \end{flalign}
 $$
 where $v$ and $a$ is *velocity* and *acceleration* respectively.
+
+* Two linear FDEs connected by two dependent variables (e.g. the rate of change of $x$ and $y$ — the populations of foxes and rabbits), and one independent variable (e.g. time $t$) are called **coupled**: 
+$$
+\begin{flalign}
+    &\begin{cases}
+        \drv{dx}{dt} = ax + by + f(t) \\
+        \drv{dy}{dt} = cx + dy + g(t)
+    \end{cases}
+    &
+\end{flalign}
+$$
+Such system of simlutaneous equations is **solved by eliminating one of the dependent variables** to form an [[./Second-order Differential Equations (SDEs).md|SDE]]. Additionally, note that if $f(t)$ and $g(t)$ are both $0$, the system is said to be *homogeneous*.
 
 ---
 

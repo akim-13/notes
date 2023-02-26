@@ -13,7 +13,5 @@
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "Attachments",
   "newLinkFormat": "relative",
-  "userIgnoreFilters": [
-    "Attachments/"
-  ]
+  "userIgnoreFilters": null
 }

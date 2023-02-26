@@ -1,6 +1,9 @@
+---
+tags: Math, Math/Applied
+---
 # Simple Harmonic Motion (SHM)
 
-* **Simple Harmonic Motion (SHM)** is a type of [[./Harmonic Motion.md | harmonic motion]] in which the acceleration of a particle $P$ is always towards a fixed point $O$ on the line of motion of $P$. SHM can be modeled by an [[./Second-order Differential Equations (SDEs).md|SDE]] of the form:
+* **Simple Harmonic Motion (SHM)** is a type of [[./Harmonic Motion.md | harmonic motion]] in which the acceleration of a particle $P$ is always towards a fixed point $O$ on the line of motion of $P$. SHM can be modeled by a [[Homogeneous SDEs| homogeneous SDE]] of the form:
 $$
 \begin{flalign}
     \boxed{\drv{d^2 x}{dt^2} + \omega^2 x = 0 \iff \ddot x = -\omega^2 x} \tag{1}
@@ -18,20 +21,28 @@ $$
     & x(0) = a \implies \text{ let } a = A &\\
     & \dot x(t) = -A \omega \sin{\omega t} + b \omega \cos{\omega t} &\\
     & \dot x(0) = 0 \text{ (starting from rest) } \implies b = 0 &\\
-    & x(t) = \cos{\omega t} &
+    & x(t) = A\cos{\omega t} &
 \end{flalign}
 $$
 
 * An **alternative form** of the SHM equation is:
 $$
 \begin{flalign}
-    \boxed{x = A \cos{\omega t}}
+    \boxed{x = A \cos{\omega t}} \tag{2}
 \end{flalign}
 $$
 where $A$ is the **amplitude** — the maximum displacement from the origin. Moreover, the **period** of the motion ($T$) is the time the particle takes to complete one oscillation, i.e. when the angle $\omega T = 2 \pi$:
 $$
 \begin{flalign}
-    \boxed{T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{m}{k}}}
+    \boxed{T = \frac{2\pi}{\omega}}
 \end{flalign}
 $$
+
+* It is also possible to find the **maximum speed** by differentiating (2):
+$$
+\begin{flalign}
+    \dot x = -A \omega \sin{\omega t} \implies \boxed{|\vec{v}_{\text{max}}| = A \omega}
+\end{flalign}
+$$
+
 

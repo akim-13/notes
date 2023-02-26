@@ -1,3 +1,6 @@
+---
+tags: Math, Math/Pure
+---
 # Solving Inequalities
 **Q:** Solve $\frac{1}{x-1} + \frac{2}{x+1} < 1$
 **A:** 
@@ -11,6 +14,6 @@ $$
 \end{flalign}
 $$
 
-![[Solving Inequalities 2023-02-10_18.32.58]]
+![[Attachments/Excalidraw/Solving Inequalities]]
 
 *Answer:* $x \in (-\infty, -1) \cup (0,1) \cup (3, +\infty )$ 

@@ -1,4 +1,7 @@
-# homogeneous SDEs
+---
+tags: Math, Math/Pure
+---
+# Homogeneous SDEs
 
 * A **homogeneous SDE** is an [[./Second-order Differential Equations (SDEs).md|SDE]] of the form:
 $$ f(y'', y', y) = 0 $$ 
@@ -17,9 +20,8 @@ $$
 Ae^{\alpha x}(a \alpha^{2} + b \alpha + c) + 
 Be^{\beta x }(a \beta^{2} + b \beta + c) = 0 \tag{2}
 $$ 
-This implies that in order for $\alpha$ and $\beta$ to satisfy (2), and consequently (1),
-they have to be the solutions of the **auxiliary equation** of the form:
-$$ am^{2} + bm + c = 0 \tag{3} $$
+This implies that in order for $\alpha$ and $\beta$ to satisfy (2), and consequently (1), they have to be the solutions of the **auxiliary equation** of the form:
+$$ am^{2} + bm + c = 0 \tag{3} $$^auxiliary-equation
 
 * **To find the general solution** of a linear homogeneous SDE (1), first find 
 the discriminant ($\Delta$) of the auxiliary equation (3) that has roots $\alpha$ and $\beta$, and then if:

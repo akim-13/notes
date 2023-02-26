@@ -1,3 +1,6 @@
+---
+tags: Math, Math/Pure
+---
 # Special Integrals
 
 1)

@@ -1,3 +1,6 @@
+---
+tags: Math, Math/Pure
+---
 # L'Hopital's Rule
 * **L'Hopital's rule** states that if the limit of a ratio is indeterminate of 
 the form $\frac{0}{0}$ or $\frac{\infty}{\infty}$, then:

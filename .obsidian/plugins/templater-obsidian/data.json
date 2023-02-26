@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Templates",
+  "templates_folder": "/",
   "templates_pairs": [
     [
       "",
@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "/",
+      "template": "default.template"
     }
   ],
   "syntax_highlighting": true,
@@ -25,5 +25,6 @@
   ],
   "startup_templates": [
     ""
-  ]
+  ],
+  "enable_ribbon_icon": true
 }

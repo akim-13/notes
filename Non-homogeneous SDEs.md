@@ -1,3 +1,6 @@
+---
+tags: Math, Math/Pure
+---
 # Non-homogeneous SDEs
 
 * A **non-homogeneous SDE** is an [[./Second-order Differential Equations (SDEs).md|SDE]] of the form:

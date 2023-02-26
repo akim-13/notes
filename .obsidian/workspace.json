@@ -4,55 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "50e64496d8ef08e1",
+        "id": "5ea5dee0497404db",
         "type": "tabs",
         "children": [
           {
-            "id": "f7f4d4704b3eda68",
+            "id": "4fa4f9e47e8f6d73",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Solving Inequalities.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "53cde5af91663772",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Simple Harmonic Motion (SHM).md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "487b50eaee594c89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Special Integrals.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d6e54d034a25f052",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "First-order Differential Equations (FDEs).md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "graph",
+              "state": {},
+              "pinned": true
             }
           }
         ]
@@ -67,6 +29,7 @@
       {
         "id": "b2731e9fe5692e7f",
         "type": "tabs",
+        "dimension": 73.6,
         "children": [
           {
             "id": "b3143a87a566d689",
@@ -94,37 +57,12 @@
             }
           }
         ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 256.50390243530273,
-    "collapsed": true
-  },
-  "right": {
-    "id": "1f503a3ce2fd7a72",
-    "type": "split",
-    "children": [
+      },
       {
-        "id": "87632fecbb90e26d",
+        "id": "c46b2837f5751def",
         "type": "tabs",
+        "dimension": 26.4,
         "children": [
-          {
-            "id": "d8cbb66b690fbc3a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Solving Inequalities.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "c5afc6167d8f9193",
             "type": "leaf",
@@ -140,7 +78,37 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 256.50390243530273
+  },
+  "right": {
+    "id": "1f503a3ce2fd7a72",
+    "type": "split",
+    "children": [
+      {
+        "id": "87632fecbb90e26d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8cbb66b690fbc3a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -152,21 +120,54 @@
       "markdown-importer:Open format converter": false,
       "templates:Insert template": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f7f4d4704b3eda68",
+  "active": "4fa4f9e47e8f6d73",
   "lastOpenFiles": [
-    "Attachments/Excalidraw/Solving Inequalities 2023-02-10_18.32.58.md",
-    "Attachments/Excalidraw/AAM3B.1.5.md",
-    "Non-homogeneous SDEs.md",
-    "First-order Differential Equations (FDEs).md",
-    "Special Integrals.md",
-    "Simple Harmonic Motion (SHM).md",
-    "Homogeneous SDEs.md",
     "Harmonic Motion.md",
+    "Attachments/Excalidraw/Sketch.md",
+    "Attachments/Excalidraw/Sketch_1.md",
+    "Attachments/Excalidraw/Sketch_2.md",
+    "Attachments/Excalidraw/Sketch_0.md",
+    "Attachments/Excalidraw/Sketch_2023-02-26_22.57.05.md",
+    "Simple Harmonic Motion (SHM).md",
+    "Damped Harmonic Motion (DHM).md",
+    "Forced Harmonic Motion (FHM).md",
+    "Homogeneous SDEs.md",
+    "Attachments/Pasted image 20230226230821.png",
+    "Attachments/Excalidraw/Solving Inequalities.md",
+    "Second-order Differential Equations (SDEs).md",
+    "First-order Differential Equations (FDEs).md",
+    "Attachments/Excalidraw/default_template.md",
+    "Attachments/Excalidraw/AAM3B.1.7.md",
+    "Attachments/Excalidraw/AAM23.1.1.md",
+    "Attachments/Excalidraw/AAM23.1.3.md",
+    "Attachments/Excalidraw/AAM3B.1.5.md",
     "Attachments/Excalidraw/AAM3B.1.4.md",
-    "Attachments/Excalidraw/AAM3B.1.6.md"
+    "Attachments/Excalidraw/AAM3B.1.6.md",
+    "Attachments/Excalidraw/AAM3B.1.8.md",
+    "Attachments/Excalidraw/FS2.ME5.md",
+    "Attachments/Excalidraw/AAM23.1.2.md",
+    "Attachments/Excalidraw/AAM24.1.4.md",
+    "Attachments/Excalidraw/AAM24.1.3.md",
+    "Attachments/Excalidraw/AAM24.1.2.md",
+    "Attachments/Excalidraw/AAM23.1.1.md~",
+    "First-order Differential Equations (FDEs).md~",
+    "Attachments/fhm.gif",
+    "Attachments/fhm.gif.crdownload",
+    "Forced Harmonic Motion (FHM).md~",
+    "4913",
+    "Attachments/fhm.png",
+    "Attachments/fhm.png.crdownload",
+    "Attachments/critical_damping.png",
+    "Attachments/critical_damping.png.crdownload",
+    "Attachments/heavy_damping.png",
+    "Attachments/heavy_damping.png.crdownload",
+    "Attachments/light_damping.png",
+    "Attachments/light_damping",
+    "Attachments/Unconfirmed 105326.crdownload",
+    "Untitled.canvas"
   ]
 }

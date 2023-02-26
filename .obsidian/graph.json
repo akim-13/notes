@@ -2,21 +2,36 @@
   "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#Math/Applied",
+      "color": {
+        "a": 1,
+        "rgb": 3104720
+      }
+    },
+    {
+      "query": "tag:#Math/Pure",
+      "color": {
+        "a": 1,
+        "rgb": 4963518
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.444444444444444,
-  "repelStrength": 4.82170070100579,
+  "collapse-forces": false,
+  "centerStrength": 0.597206211432834,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 165,
-  "scale": 2.80855177123388,
-  "close": false
+  "linkDistance": 133,
+  "scale": 2.3215071351022485,
+  "close": true
 }

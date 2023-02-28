@@ -1,6 +1,9 @@
 ---
 tags: Math, Math/Pure
 ---
+%%
+links: [[Differential Equations]]
+%%
 # Non-homogeneous SDEs
 
 * A **non-homogeneous SDE** is an [[./Second-order Differential Equations (SDEs).md|SDE]] of the form:
@@ -27,6 +30,33 @@ The general solution of the C.F. is called the **complementary solution (C.S.)**
     5) $\lambda \cos{kx} +\mu \sin{kx}$,
 
     where $\lambda, \mu$ and $\nu$ are the coefficients to be found by equating them to the corresponding coefficients of $f(x)$.
+
+* **The failure case** occurs when the chosen form of a P.I. does not satisfy the original equation, e.g. when after substitution all the terms cancel out. Most commonly, it occurs when the P.I. and C.S. both contain terms of a common form. For example:
+$$
+\begin{flalign}
+&   \drv{d^2 y}{dx^2} - 5\drv{dy}{dx} + 6y = e^{2x} \\
+&   y_c = Ae^{3x} + Be^{2x} \\
+&   \text{Let } y_p = \lambda e^{2x} 
+    \implies y_p' = 2 \lambda e^{2x} 
+    \implies y_p'' = 4 \lambda e^{2x} \\
+&   \text{Substituting in the original equation: }\\
+&   4 \lambda e^{2x} - 10 \lambda e^{2x} + 6 \lambda e^{2x} = e^{2x} 
+    \iff 0 = e^{2x} 
+&    
+\end{flalign}
+$$
+Both $y_c$ and $y_p$ contain a term of the form $\lambda e^{2x}$, resulting in the failure case. To resolve it, the P.I. can be multiplied by $x$ (sometimes $x^2$ or $[\lambda x + \mu]$):
+$$
+\begin{flalign}
+&   \text{Let } y_p = \lambda xe^{2x} 
+    \implies y_p' = 2 \lambda xe^{2x} + \lambda e^{2x}
+    \implies y_p'' = 4 \lambda xe^{2x} + 4 \lambda e^{2x} \\
+&   \text{Substituting in the original equation: } \\
+&   4 \lambda x e^{2x} + 4 \lambda e^{2x} - 5(2 \lambda x e^{2x} + \lambda e^{2x}) + 6 \lambda xe^{2x} = e^{2x} \\
+&   -\lambda e^{2x} = e^{2x} \implies \lambda = -1
+&
+\end{flalign}
+$$
 
 * **To find the general solution** of a linear non-homogeneous SDE (1):
     1) [[Homogeneous SDEs#^solve-homogeneous-sde|Solve]] $a\frac{\mathrm{d}^{2}y}{\mathrm{d}x^{2}} + b\frac{\mathrm{d}y}{\mathrm{d}x} + cy=0$ to find the C.S.

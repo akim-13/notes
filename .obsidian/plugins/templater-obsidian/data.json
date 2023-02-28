@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "/",
+  "templates_folder": "Miscellaneous",
   "templates_pairs": [
     [
       "",
@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "/",
-      "template": "default.template"
+      "template": "Miscellaneous/default_note_template.md"
     }
   ],
   "syntax_highlighting": true,
@@ -26,5 +26,5 @@
   "startup_templates": [
     ""
   ],
-  "enable_ribbon_icon": true
+  "enable_ribbon_icon": false
 }

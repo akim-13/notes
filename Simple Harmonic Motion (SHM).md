@@ -1,6 +1,9 @@
 ---
-tags: Math, Math/Applied
+tags: Math, Math/Applied, Math/Pure
 ---
+%%
+links: [[Differential Equations]]
+%%
 # Simple Harmonic Motion (SHM)
 
 * **Simple Harmonic Motion (SHM)** is a type of [[./Harmonic Motion.md | harmonic motion]] in which the acceleration of a particle $P$ is always towards a fixed point $O$ on the line of motion of $P$. SHM can be modeled by a [[Homogeneous SDEs| homogeneous SDE]] of the form:

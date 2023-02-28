@@ -1,6 +1,9 @@
 ---
-tags: Math, Math/applied
+tags: Math, Math/Applied, Math/Pure
 ---
+%% 
+links: [[Differential Equations]]
+%%
 # Harmonic Motion
 
 * **Harmonic motion** is a periodic motion in which the displacement is symmetrical about a point.

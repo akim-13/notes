@@ -1,6 +1,9 @@
 ---
-tags: Math, Math/applied
+tags: Math, Math/Applied, Math/Pure
 ---
+%%
+links: [[Differential Equations]]
+%%
 # Forced Harmonic Motion (FHM)
 * **Forced Harmonic Motion (FHM)** occurs when a particle is subject to [[./Damped Harmonic Motion (DHM).md|DHM]] and is forced to oscillate with a frequency other than in natural one. It can be modeled by a [[./Non-homogeneous SDEs.md|non-homogeneous SDE]]:
 $$

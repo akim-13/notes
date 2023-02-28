@@ -4,34 +4,48 @@
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
-  "collapse-color-groups": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
   "colorGroups": [
+    {
+      "query": "tag:#Math/Pure tag:#Math/Applied",
+      "color": {
+        "a": 1,
+        "rgb": 1742805
+      }
+    },
     {
       "query": "tag:#Math/Applied",
       "color": {
         "a": 1,
-        "rgb": 3104720
+        "rgb": 1725141
       }
     },
     {
       "query": "tag:#Math/Pure",
       "color": {
         "a": 1,
-        "rgb": 4963518
+        "rgb": 4449253
+      }
+    },
+    {
+      "query": "path:Attachments/Excalidraw",
+      "color": {
+        "a": 1,
+        "rgb": 3684408
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "lineSizeMultiplier": 0.995470265138672,
+  "collapse-forces": true,
   "centerStrength": 0.597206211432834,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 133,
-  "scale": 2.3215071351022485,
+  "scale": 1.8905469600741625,
   "close": true
 }

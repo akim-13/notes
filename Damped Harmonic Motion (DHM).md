@@ -1,6 +1,9 @@
 ---
-tags: Math, Math/applied
+tags: Math, Math/Applied, Math/Pure
 ---
+%%
+links: [[Differential Equations]]
+%%
 # Damped Harmonic Motion (DHM)
 
 * **Damped Harmonic Motion (DHM)** is [[./Simple Harmonic Motion (SHM).md|SHM]] with a **damping force** added to it, i.e. the force proportional to the velocity of the particle:

@@ -1,5 +1,5 @@
 ---
-tags: Math, Math/Pure
+tags: Math, Math/Pure, Practice
 ---
 # Solving Inequalities
 **Q:** Solve $\frac{1}{x-1} + \frac{2}{x+1} < 1$

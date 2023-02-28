@@ -1,6 +1,9 @@
 ---
 tags: Math, Math/Pure
 ---
+%% 
+links: [[Differential Equations]]
+%%
 # Homogeneous SDEs
 
 * A **homogeneous SDE** is an [[./Second-order Differential Equations (SDEs).md|SDE]] of the form:

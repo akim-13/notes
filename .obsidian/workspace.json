@@ -23,6 +23,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "First-order Differential Equations (FDEs).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "96f326b6496f20a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Non-homogeneous SDEs.md",
                 "mode": "preview",
                 "source": true
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Non-homogeneous SDEs.md",
+                "file": "First-order Differential Equations (FDEs).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,17 +150,20 @@
   },
   "active": "2997742e7f46b090",
   "lastOpenFiles": [
+    "Non-homogeneous SDEs.md",
+    "Homogeneous SDEs.md",
+    "First-order Differential Equations (FDEs).md",
+    "First-order Differential Equations (FDEs).md~",
+    "Attachments/Excalidraw/Draft.md",
+    "Attachments/Excalidraw/Draft_0.md",
     "4913",
     "Non-homogeneous SDEs.md~",
     "Second-order Differential Equations (SDEs).md",
     "Solving Inequalities.md",
     "Forced Harmonic Motion (FHM).md",
     "Harmonic Motion.md",
-    "Homogeneous SDEs.md",
-    "First-order Differential Equations (FDEs).md",
     "Simple Harmonic Motion (SHM).md",
     "Damped Harmonic Motion (DHM).md",
-    "Non-homogeneous SDEs.md",
     "Miscellaneous/default_note_template.md",
     "Miscellaneous/default_drawing_template.md",
     "test.md",
@@ -169,16 +184,12 @@
     "Attachments/Excalidraw/AAM23.1.1.md",
     "Attachments/Excalidraw/AAM23.1.3.md",
     "Attachments/Excalidraw/AAM3B.1.5.md",
-    "Attachments/Excalidraw/AAM3B.1.4.md",
-    "Attachments/Excalidraw/AAM3B.1.6.md",
     "Attachments/Excalidraw/AAM23.1.1.md~",
-    "First-order Differential Equations (FDEs).md~",
     "Attachments/fhm.gif.crdownload",
     "Forced Harmonic Motion (FHM).md~",
     "Attachments/fhm.png",
     "Attachments/fhm.png.crdownload",
     "Attachments/critical_damping.png",
-    "Attachments/critical_damping.png.crdownload",
     "Attachments/heavy_damping.png",
     "Attachments/light_damping.png"
   ]

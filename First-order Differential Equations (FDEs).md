@@ -98,3 +98,28 @@ $$
 $$
 
 *Answer:* $y = \frac{x}{k - \ln{x}}$
+
+---
+**Q3:** A water bottle intially contains *400 ml* of distilled water. The watrer leaks out at a constant rate of *30 ml/minute* and a mixture is added to the bottle at a constant rate of *40 ml/minute*. The mixture contains *10% acid* and *90% distilled water*. Given that there is $x$ ml of acid in the bottle after $t$ minutes and that the acid immediately disperses on entry, find the differential equation that expresses the relation between $x$ and its rate of change and explain how the model could be refined.^[C2.206 Q72 a), c)]
+**A:** 
+1. Find the expression for the volume of liquid in the bottle after $t$ hours:
+$V(t) = 400 - 30t + 40t = 400 + 10t$ (ml)
+2. Find the rate at which the acid is *flowing in*:
+$x'_\text{in} = 40 \times \text{concentration} = 40 \times 0.1 = 4$ (ml/min)
+3. Find the rate at which the acid is *flowing out*:
+$$
+\begin{flalign}
+    &x'_{\text{out}} = -30 \times \text{concentration} = -30 \times \frac{x}{v} \\
+    &x'_{\text{out}} = -\frac{30x}{400 + 10t} \text{ (ml/min)}
+    &
+\end{flalign}
+$$
+4. Find the equation:
+$$
+\begin{flalign}
+    &\drv{dx}{dt} = 4 - \frac{30x}{400 + 10t} = 4 - \frac{3x}{40 + t}
+    &
+\end{flalign}
+$$
+
+*Answer:* The equation linking $x$ and its rate of change is $\drv{dx}{dt} = 4 - \frac{3x}{40 + t}$. The current model assumes that acid spreads immediately upon entry, which is unrealistic. A potetial improvement could be accounting for the velocity of spread.

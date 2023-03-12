@@ -1,6 +1,6 @@
 {
-  "folder": "Attachments/Excalidraw",
-  "embedUseExcalidrawFolder": true,
+  "folder": "Drafts",
+  "embedUseExcalidrawFolder": false,
   "templateFilePath": "Miscellaneous/default_drawing_template.md",
   "scriptFolderPath": "Excalidraw/Scripts",
   "compress": true,
@@ -12,7 +12,7 @@
   "drawingEmbedPrefixWithFilename": true,
   "drawingFilnameEmbedPostfix": "",
   "drawingFilenameDateTime": "",
-  "useExcalidrawExtension": false,
+  "useExcalidrawExtension": true,
   "displaySVGInPreview": false,
   "displayExportedImageIfAvailable": false,
   "previewMatchObsidianTheme": false,

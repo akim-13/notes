@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "2997742e7f46b090",
+            "id": "8d23838dce7ab575",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First-order Differential Equations (FDEs).md",
+                "file": "Vieta's Formulas.md",
                 "mode": "preview",
                 "source": true
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First-order Differential Equations (FDEs).md",
+                "file": "Vieta's Formulas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,18 +148,27 @@
       "markdown-importer:Open format converter": true
     }
   },
-  "active": "2997742e7f46b090",
+  "active": "8d23838dce7ab575",
   "lastOpenFiles": [
+    "Vieta's Formulas.md",
+    "Vieta's Formulas.md~",
     "Non-homogeneous SDEs.md",
-    "Homogeneous SDEs.md",
     "First-order Differential Equations (FDEs).md",
+    "Attachments/Draft.md",
+    "Attachments/Solving Inequalities.md",
+    "Attachments/Draft.excalidraw.md",
+    "Attachments/Untitled.md",
+    "Solving Inequalities.md",
+    "Drafts/AAM23.1.3.md",
+    "Drafts/AAM3B.1.5.md",
+    "Drafts",
+    "Homogeneous SDEs.md",
     "First-order Differential Equations (FDEs).md~",
     "Attachments/Excalidraw/Draft.md",
     "Attachments/Excalidraw/Draft_0.md",
     "4913",
     "Non-homogeneous SDEs.md~",
     "Second-order Differential Equations (SDEs).md",
-    "Solving Inequalities.md",
     "Forced Harmonic Motion (FHM).md",
     "Harmonic Motion.md",
     "Simple Harmonic Motion (SHM).md",
@@ -169,7 +178,6 @@
     "test.md",
     "Attachments/fhm.gif",
     "Attachments/Excalidraw/Sketch.md",
-    "Attachments/Excalidraw/Solving Inequalities.md",
     "Untitled.canvas",
     "Miscellaneous/preamble.sty",
     "Miscellaneous",
@@ -177,18 +185,10 @@
     "Attachments/Excalidraw/Sketch_1.md",
     "Attachments/Excalidraw/Sketch_2.md",
     "Attachments/Excalidraw/Sketch_0.md",
-    "Attachments/Excalidraw/Sketch_2023-02-26_22.57.05.md",
     "Attachments/Pasted image 20230226230821.png",
-    "Attachments/Excalidraw/default_template.md",
-    "Attachments/Excalidraw/AAM3B.1.7.md",
-    "Attachments/Excalidraw/AAM23.1.1.md",
-    "Attachments/Excalidraw/AAM23.1.3.md",
-    "Attachments/Excalidraw/AAM3B.1.5.md",
     "Attachments/Excalidraw/AAM23.1.1.md~",
     "Attachments/fhm.gif.crdownload",
-    "Forced Harmonic Motion (FHM).md~",
     "Attachments/fhm.png",
-    "Attachments/fhm.png.crdownload",
     "Attachments/critical_damping.png",
     "Attachments/heavy_damping.png",
     "Attachments/light_damping.png"

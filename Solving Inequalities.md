@@ -14,6 +14,6 @@ $$
 \end{flalign}
 $$
 
-![[Attachments/Excalidraw/Solving Inequalities]]
+![[Attachments/Solving Inequalities]]
 
 *Answer:* $x \in (-\infty, -1) \cup (0,1) \cup (3, +\infty )$ 

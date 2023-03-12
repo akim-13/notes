@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": " -path:Attachments",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -27,13 +27,6 @@
         "a": 1,
         "rgb": 4449253
       }
-    },
-    {
-      "query": "path:Attachments/Excalidraw",
-      "color": {
-        "a": 1,
-        "rgb": 3684408
-      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 133,
-  "scale": 1.8905469600741625,
-  "close": true
+  "scale": 1.0170262641169479,
+  "close": false
 }

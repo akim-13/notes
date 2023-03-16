@@ -18,24 +18,12 @@
             }
           },
           {
-            "id": "8d23838dce7ab575",
+            "id": "0fab647727b2eb32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vieta's Formulas.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "96f326b6496f20a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Non-homogeneous SDEs.md",
+                "file": "Polar Coordinates.md",
                 "mode": "preview",
                 "source": true
               }
@@ -103,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.50390243530273,
+    "width": 320.5026054382324,
     "collapsed": true
   },
   "right": {
@@ -120,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vieta's Formulas.md",
+                "file": "Polar Coordinates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,11 +136,20 @@
       "markdown-importer:Open format converter": true
     }
   },
-  "active": "8d23838dce7ab575",
+  "active": "0fab647727b2eb32",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20230316201448.png",
+    "Attachments/Pasted image 20230316200057.png",
+    "Attachments/desmos-graph.svg",
+    "Polar Coordinates.md",
+    "Attachments/Pasted image 20230316174321.png",
+    "Attachments/Pasted image 20230316185648.png",
+    "Attachments/Pasted image 20230316190051.png",
+    "Attachments/Polar Coordinates.md",
+    "Non-homogeneous SDEs.md",
+    "Attachments/Polar Coordinates.excalidraw.md",
     "Vieta's Formulas.md",
     "Vieta's Formulas.md~",
-    "Non-homogeneous SDEs.md",
     "First-order Differential Equations (FDEs).md",
     "Attachments/Draft.md",
     "Attachments/Solving Inequalities.md",
@@ -182,15 +179,11 @@
     "Miscellaneous/preamble.sty",
     "Miscellaneous",
     "Misc",
-    "Attachments/Excalidraw/Sketch_1.md",
-    "Attachments/Excalidraw/Sketch_2.md",
-    "Attachments/Excalidraw/Sketch_0.md",
     "Attachments/Pasted image 20230226230821.png",
     "Attachments/Excalidraw/AAM23.1.1.md~",
     "Attachments/fhm.gif.crdownload",
     "Attachments/fhm.png",
     "Attachments/critical_damping.png",
-    "Attachments/heavy_damping.png",
-    "Attachments/light_damping.png"
+    "Attachments/heavy_damping.png"
   ]
 }

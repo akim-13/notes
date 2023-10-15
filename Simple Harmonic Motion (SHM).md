@@ -6,7 +6,7 @@ links: [[Differential Equations]]
 %%
 # Simple Harmonic Motion (SHM)
 
-* **Simple Harmonic Motion (SHM)** is a type of [[./Harmonic Motion.md | harmonic motion]] in which the acceleration of a particle $P$ is always towards a fixed point $O$ on the line of motion of $P$. SHM can be modeled by a [[Homogeneous SDEs| homogeneous SDE]] of the form:
+* **Simple Harmonic Motion (SHM)**  is a type of [[./Harmonic Motion.md | harmonic motion]] in which the acceleration of a particle $P$ is always towards a fixed point $O$ on the line of motion of $P$. SHM can be modeled by a [[Homogeneous SDEs| homogeneous SDE]] of the form:
 $$
 \begin{flalign}
     \boxed{\drv{d^2 x}{dt^2} + \omega^2 x = 0 \iff \ddot x = -\omega^2 x} \tag{1}
@@ -48,4 +48,4 @@ $$
 \end{flalign}
 $$
 
-
+A boat is a {water car or smth idk}. It {is}!

@@ -14,10 +14,14 @@
   "drawingFilenameDateTime": "",
   "useExcalidrawExtension": false,
   "displaySVGInPreview": false,
+  "previewImageType": "PNG",
+  "allowImageCache": true,
   "displayExportedImageIfAvailable": false,
   "previewMatchObsidianTheme": false,
   "width": "400",
+  "dynamicStyling": "colorful",
   "isLeftHanded": false,
+  "iframeMatchExcalidrawTheme": true,
   "matchTheme": true,
   "matchThemeAlways": false,
   "matchThemeTrigger": false,
@@ -8331,10 +8335,11 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": true,
-  "previousRelease": "1.8.17",
+  "previousRelease": "1.9.14",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js",
+  "latexBoilerplate": "\\color{blue}",
   "taskboneEnabled": false,
   "taskboneAPIkey": "0116cc3c-8b8d-4f75-8df1-75e972226f23",
   "pinnedScripts": [],
@@ -8650,5 +8655,11 @@
       }
     }
   ],
-  "numberOfCustomPens": 3
+  "numberOfCustomPens": 3,
+  "pdfScale": 4,
+  "pdfBorderBox": true,
+  "pdfGapSize": 20,
+  "pdfLockAfterImport": true,
+  "pdfNumColumns": 1,
+  "pdfImportScale": 0.3
 }

@@ -4,7 +4,7 @@ tags: Math, Math/Pure, Math/Applied
 # First-order Differential Equations (FDEs)
 * **First-order differential equation (FDE)** is a [[Differential Equations.md|differential equation]] of the form $f(y, \frac{dy}{dx}) = g(x)$.
 
-* FDE of the form $\frac{\mathrm{d}y}{\mathrm{d}x} = f(x)g(y)$ is solved by **separating the variables**:
+* FDEs of the form $\frac{\mathrm{d}y}{\mathrm{d}x} = f(x)g(y)$ are solved by **separating the variables**:
 $$
 \begin{align}
     \int \frac{1}{g(y)} \,\mathrm{d}y = \int f(x) \,\mathrm{d}x 

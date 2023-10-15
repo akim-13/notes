@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "-path:Attachments",
+  "collapse-filter": true,
+  "search": "-path:Attachments -tag:#Practice  ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -26,6 +26,13 @@
       "color": {
         "a": 1,
         "rgb": 4449253
+      }
+    },
+    {
+      "query": "tag:#CS  ",
+      "color": {
+        "a": 1,
+        "rgb": 7601920
       }
     }
   ],

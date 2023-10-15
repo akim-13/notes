@@ -3,5 +3,8 @@
   "translucency": false,
   "cssTheme": "Obsidian gruvbox",
   "accentColor": "",
-  "textFontFamily": "Times New Roman"
+  "textFontFamily": "Times New Roman",
+  "enabledCssSnippets": [
+    "Center table contents"
+  ]
 }

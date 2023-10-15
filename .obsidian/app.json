@@ -2,9 +2,7 @@
   "legacyEditor": false,
   "livePreview": false,
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "en-GB"
-  ],
+  "spellcheckLanguages": null,
   "vimMode": true,
   "promptDelete": false,
   "showLineNumber": false,
@@ -15,5 +13,11 @@
   "newLinkFormat": "relative",
   "userIgnoreFilters": [
     "Miscellaneous/"
-  ]
+  ],
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

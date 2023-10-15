@@ -1,0 +1,4 @@
+/* Center the content of table cells in Obsidian */
+table th, table td {
+    text-align: center;
+}

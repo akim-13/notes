@@ -1,5 +1,6 @@
 [
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
-  "obsidian-latex"
+  "obsidian-latex",
+  "obsidian-to-anki-plugin"
 ]

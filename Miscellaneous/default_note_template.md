@@ -1,7 +1,5 @@
 ---
 tags: 
+links: 
 ---
-%%
-links:
-%%
 # <% tp.file.title %>

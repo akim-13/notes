@@ -32,18 +32,32 @@
             }
           },
           {
-            "id": "9455e7cbbc14dbaa",
+            "id": "62171ff7293f3d18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer History.md",
+                "file": "Haskell Functions.md",
                 "mode": "preview",
                 "source": true
               }
             }
+          },
+          {
+            "id": "00c6b23961b26bed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell Standard Functions.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,6 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Haskell Standard Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,9 +172,15 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "1508d72e405ed8c1",
+  "active": "00c6b23961b26bed",
   "lastOpenFiles": [
+    "Haskell Functions.md",
+    "Haskell Standard Functions.md",
+    "Haskell.md",
+    "Haskell Types.md",
+    "Haskell Lists.md",
     "Computer History.md",
+    "Haskell Constructors & Pattern Matching.md",
     "Attachments/Pasted image 20231015203452.png",
     "Attachments/Pasted image 20231015201919.png",
     "Attachments/Pasted image 20231015201731.png",
@@ -169,18 +190,13 @@
     "Attachments/Pasted image 20231015195528.png",
     "Attachments/Pasted image 20231015195212.png",
     "Attachments/Pasted image 20231015194010.png",
-    "Haskell.md",
     "Von Neumann Architecture.md",
     "C Basics.md",
     "Propositional Calculus.md",
-    "Haskell Functions.md",
     "Haskell Sorting Algorithms.md",
     "Boolean Formulae.md",
     "Logical Connectives.md",
-    "Haskell Types.md",
     "Untitled.md",
-    "Haskell Constructors & Pattern Matching.md",
-    "Haskell Lists.md",
     "Haskell Basics.md",
     "Haskell Conditionals.md",
     "Non-homogeneous SDEs.md",

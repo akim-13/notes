@@ -12,6 +12,12 @@ links: "[[Haskell]]"
  ^a50e06
 - **[[Haskell Functions#^753913|Curried functions]]** have a type of the form `Type_1 -> Type_2 -> ... -> Type_n -> Type_r`, where the first argument has type `Type_1`, the second `Type_2`, etc., and the return value has the type `Type_r`.
  ^839334
+- The type arrow (`->`) **associates right**. This follows from [[Haskell Functions#^currying | currying]].
+	```haskell
+	 a -> b -> c == a -> (b -> c)
+	```
+	Here a function takes an argument `a` and returns another function of the type `(b -> c)`. This new function takes an argument of type `b` and returns a value of the type `c`.
+
 - Types may contain **variables**, which stand in for any type:
     ```haskell
     ifthenelse :: Bool -> type1 -> type1 -> type1

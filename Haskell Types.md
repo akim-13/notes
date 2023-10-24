@@ -8,7 +8,7 @@ links: "[[Haskell]]"
 # Haskell Types
 - Everything has a **type** in Haskell.
 
-- **Type declaration** is of the form `function :: Type`.
+- To declare types, **type signatures** of the form `function :: Type` are used.
  ^a50e06
 - **[[Haskell Functions#^753913|Curried functions]]** have a type of the form `Type_1 -> Type_2 -> ... -> Type_n -> Type_r`, where the first argument has type `Type_1`, the second `Type_2`, etc., and the return value has the type `Type_r`.
  ^839334

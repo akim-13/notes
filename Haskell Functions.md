@@ -7,6 +7,7 @@ links:
   - "[[Haskell]]"
 ---
 # Haskell Functions
+- There are a number of built-in or **[[Haskell Standard Functions | standard functions]]**.
 - Functions with **one argument**:
     ```haskell
     func_square x = x * x
@@ -99,19 +100,40 @@ links:
     (+) :: Integer -> Integer -> Integer
     (+) :: Float -> Float -> Fload
     ```
+    
+- The **`where` clause** is a part of function definition that allows to *localize* functions and variables (as opposed to leaving them global):
+    ```haskell
+    fibonacci :: [Int]
+    fibonacci = makeFibonacci 1 1
+        where
+            makeFibonacci :: Int -> Int -> [Int]
+            makeFibonacci n m = n : makeFibonacci m (n+m)
+    ```
+    - It is also useful for naming **intermediate calculations** that are used in multiple places:
+        ```haskell
+        average :: [Int] -> Int
+        average xs
+            | count == 0 = error "Can't average no numbers"
+            | otherwise = total `div` count 
+            where
+                total = sum xs
+                count = length xs
+        ```
 
+    
 - A function can be **partially applied**, i.e. take fewer arguments than it is supposed to. This is possible due to [[Haskell Functions#^currying | currying]].
-	^partial-app
+    ^partial-app
     ```haskell
     max     :: Int -> Int -> Int
-    max 3   ::          Int -> Int
-    max 3 5 ::                Int
+    max 3   ::        Int -> Int
+    max 3 5 ::               Int
     ---
     ghci> map (max 3) [1..5]
     [3,3,3,4,5]
     ```
     See [[Haskell Standard Functions#^map | map]].
     - **Sections** are partially applied infix operators, written in parenthesis:
+        ^sections
         ```haskell
          (<)   :: Int -> Int -> Bool
         (3 <)  ::        Int -> Bool
@@ -133,10 +155,12 @@ links:
         ghci> map (map (+3)) [[1,2],[],[3,4,5],[6]]
         [[4,5],[],[6,7,8],[9]]
         ```
-    - Partial application can also be used in **function definition**:
+    - Partial application can also be used in **function definition**. The missing arguments are implicitly appended at the end of the return expression (unless it's a section):
         ```haskell
         addOne :: [Int] -> [Int]
         addOne = map (+1)
+		-- Is the same as
+		addOne xs = map (+1) xs
 
         squareAll :: [Int] -> [Int]
         squareAll = map square
@@ -145,4 +169,32 @@ links:
 
         reverseAll :: [String] -> [String]
         reverseAll = map reverse
+        ```
+
+- Functions can be **composed**, i.e. applied one by one, using `.`:
+    ^func-comp
+    ```haskell
+    (.) :: (b -> c) -> (a -> b) -> (a -> c)
+    (f . g) x == f (g x)
+    ```
+     - It's easier to understand the **type signature** of this infix operator by writing `.` as a prefix function `compose`:
+        ```haskell
+        compose :: (b -> c) -> (a -> b) -> (a -> c)
+        compose f g x = f (g x)
+        -- x       :: a
+        -- g       :: a -> b
+        -- g x     :: b
+        -- f       :: b -> c
+        -- f (g x) :: c 
+        ```
+    - Examples:
+        ```haskell
+        ghci> (map (*2) . filter (<= 10)) [1..100]
+        [2,4,6,8,10,12,14,16,18,20]
+
+        ghci> (take 10 . filter (/=0)) [-5..]
+        [-5,-4,-3,-2,-1,1,2,3,4,5]
+
+        ghci> filter ((<4) . length) ["one","two","three","four"]
+        ["one","two"]
         ```

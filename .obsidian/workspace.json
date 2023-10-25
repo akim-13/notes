@@ -32,91 +32,19 @@
             }
           },
           {
-            "id": "a2815a581f463e2b",
+            "id": "0733ff9f42beda0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Registers.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3be75d3e05e333a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registers.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3fc64ac90aa94673",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cache.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "03f6a2450ad4a417",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registers.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "13b63140fd85a4fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Von Neumann Architecture.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8517040384398d2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Harvard Architecture.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "aa6cfe8b573b1613",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell Lists.md",
+                "file": "Haskell Standard Functions.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Haskell Lists.md",
+                "file": "Haskell Standard Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,23 +160,23 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "aa6cfe8b573b1613",
+  "active": "0733ff9f42beda0c",
   "lastOpenFiles": [
-    "Harvard Architecture.md",
-    "Von Neumann Architecture.md",
-    "C Basics.md",
-    "Registers.md",
-    "Cache.md",
+    "4913",
     "Haskell.md",
+    "Von Neumann Architecture.md",
+    "Registers.md",
+    "Haskell Lists.md",
+    "Harvard Architecture.md",
+    "C Basics.md",
+    "Cache.md",
     "Attachments/Pasted image 20231024223614.png",
     "Attachments/Pasted image 20231024222446.png",
     "Attachments/Pasted image 20231024222015.png",
     "Caching.md",
     "Haskell Constructors & Pattern Matching.md",
     "Haskell Functions.md",
-    "Haskell Lists.md",
     "Haskell Standard Functions.md",
-    "4913",
     "Attachments/Pasted image 20231024141539.png",
     "Attachments/Pasted image 20231024140229.png",
     "Computer History.md",

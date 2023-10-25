@@ -90,7 +90,7 @@ links:
         zipWith _ _ []          = []
         zipWith f (x:xs) (y:ys) = f x y : zipWith f xs ys
         ```
-        - Examples:
+        - **Examples**:
         ```haskell
         -- For [x1,x2,x3,...] we want to test:
         -- x1 <= x2 &&
@@ -115,6 +115,67 @@ links:
         -- the above can be written as:
         fibonacci = 1 : 1 : zipWith (+) fibonacci (tail fibonacci)
         ```
+
+- **`foldr`** replaces `:` in a list with a given function `f`, and the last element (`[]`) with a given unit value `u`:[^foldr-eg]
+    ```haskell
+    foldr :: (a -> b -> b) -> b -> [a] -> b
+    foldr f u []     = u
+    foldr f u (x:xs) = f x (foldr f u xs)
+    -- E.g.
+    xs           =   x1  :  (x2  :  (x3  :  ...  : (xn  : [ ]))...
+    foldr f u xs =   x1 `f` (x2 `f` (x3 `f` ... `f`(xn `f` u ))...
+    ```
+    - **Examples**:
+        ```haskell
+        -- Partially applied, i.e. `sum` is waiting for a list input,
+        -- which will also be appended to `foldr` as a 3rd argument.
+        sum     = foldr (+) 0
+        product = foldr (*) 1
+
+        -- An intuitive solution for `length` might be `foldr (+1) 0`.
+        -- However, to see why it doesn't work, and how it should work,
+        -- replace `f` in the example above with appropriate function,
+        -- starting from the innermost layer.
+        length = foldr f 0
+            where f _ n = n+1
+
+        or :: [Bool] -> Bool
+        or = foldr (||) True
+
+        concat :: [[a]] -> [a]
+        concat = foldr (++) []
+
+        -- Appends xs to ys.
+        append :: [a] -> [a] -> [a]
+        append xs ys = foldr (:) ys xs
+
+        -- ?
+        reverse = foldr snoc []
+            where snoc x = foldr (:) [x]
+
+        member :: Eq a => a -> [a] -> Bool
+        member x = foldr f False
+            where f y b = x == y || b
+
+        -- Think about these:
+        concatmap :: (a -> [b]) -> [a] -> [b]
+        concatmap f = foldr g []
+            where g x ys = f x ++ ys
+
+        unZip :: [(a,b)] -> ([a],[b])
+        unZip = foldr f ([],[])
+            where f (x,y) (xs,ys) = (x:xs,y:ys)
+        ```
+
+    - The `r` in `foldr` stands for "right", because it starts folding from the right. Correspondingly, there is also **`foldl`**.
+    - **`foldr1`** uses the last element as the basis of the fold instead of the unit case `u`:
+    ```haskell
+    foldr1 :: (a -> a -> a) -> [a] -> a
+    foldr1 f (x1  :  (x2  :  (x3  :  ...  : [xn] ))) ==
+              x1 `f` (x2 `f` (x3 `f` ... `f` xn  ))
+    -- E.g.
+    product = foldr (*)
+    ```
 
 
 [^map-eg]: Some examples of this pattern include:
@@ -145,4 +206,19 @@ links:
     positives (x:xs)
         | x >= 1    = x : positives xs
         | otherwise =     positives xs
+    ```
+
+[^foldr-eg]: Common pattern generalized by `foldr`:
+    ```haskell
+    sum :: Num a => [a] -> a
+    sum []     = 0
+    sum (x:xs) = x + sum xs
+
+    product :: Num a => [a] -> a
+    product []     = 1
+    product (x:xs) = x * product xs
+
+    length :: [a] -> Int
+    length []     = 0
+    length (_:xs) = 1 + length xs
     ```

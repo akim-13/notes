@@ -32,19 +32,92 @@
             }
           },
           {
-            "id": "0733ff9f42beda0c",
+            "id": "8fd73cb353172448",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Systems Architectures.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "29a997bb3f7305d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haskell Standard Functions.md",
+                "file": "Flynn's Taxonomy.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "93d8db8ddd790588",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memory Architectures.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f581bb9982984932",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flynn's Taxonomy.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d56ff5d86ea30c79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bfaff243cebf0c76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memory Architectures.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "82463954c15f5aed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -74,7 +147,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "partial application",
+                "query": "composition",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +204,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Haskell Standard Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,45 +232,45 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "0733ff9f42beda0c",
+  "active": "1508d72e405ed8c1",
   "lastOpenFiles": [
-    "4913",
     "Haskell.md",
-    "Von Neumann Architecture.md",
+    "Memory Architectures.md",
+    "Logical Connectives.md",
+    "Databases.md",
+    "Flynn's Taxonomy.md",
+    "Attachments/Pasted image 20231029222038.png",
+    "Attachments/Pasted image 20231029222028.png",
+    "Computer Systems Architectures.md",
+    "Attachments/Pasted image 20231029220053.png",
+    "Attachments/Pasted image 20231029220046.png",
+    "Attachments/Pasted image 20231029214823.png",
+    "Attachments/Pasted image 20231029214753.png",
+    "Attachments/Pasted image 20231029213448.png",
+    "Attachments/Pasted image 20231029213428.png",
+    "Attachments/Pasted image 20231029212924.png",
+    "4913",
     "Registers.md",
-    "Haskell Lists.md",
-    "Harvard Architecture.md",
-    "C Basics.md",
     "Cache.md",
+    "C Basics.md",
+    "Computer History.md",
+    "Haskell Functions.md",
+    "Von Neumann Architecture.md",
+    "Haskell Lists.md",
+    "Haskell Standard Functions.md",
+    "Harvard Architecture.md",
     "Attachments/Pasted image 20231024223614.png",
-    "Attachments/Pasted image 20231024222446.png",
-    "Attachments/Pasted image 20231024222015.png",
     "Caching.md",
     "Haskell Constructors & Pattern Matching.md",
-    "Haskell Functions.md",
-    "Haskell Standard Functions.md",
-    "Attachments/Pasted image 20231024141539.png",
-    "Attachments/Pasted image 20231024140229.png",
-    "Computer History.md",
     "Haskell Algorithms.md",
     "Haskell Lazy Evaluation.md",
     "Haskell Sorting Algorithms.md",
     "Haskell Types.md",
     "Haskell Functions.md~",
-    "Attachments/Pasted image 20231015203452.png",
-    "Attachments/Pasted image 20231015201919.png",
-    "Attachments/Pasted image 20231015201731.png",
-    "Attachments/Pasted image 20231015201705.png",
-    "Attachments/Pasted image 20231015201252.png",
     "Propositional Calculus.md",
     "Boolean Formulae.md",
-    "Logical Connectives.md",
     "Haskell Basics.md",
     "Haskell Conditionals.md",
-    "Non-homogeneous SDEs.md",
-    "Forced Harmonic Motion (FHM).md",
-    "Damped Harmonic Motion (DHM).md",
-    "Harmonic Motion.md",
     "Haskell Basics.md~",
     "1-Haskell_Basics.hs",
     "Vieta's Formulas.md~",

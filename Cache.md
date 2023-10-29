@@ -3,6 +3,7 @@ tags:
   - cm12002
   - CS
 links:
+  - "[[Computer Systems Architectures]]"
 ---
 # Cache
 - **Cache** is a smaller, faster type of memory which stores copies of the most frequently used data from main memory. 

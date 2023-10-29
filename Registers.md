@@ -3,6 +3,7 @@ tags:
   - cm12002
   - CS
 links:
+  - "[[Computer Systems Architectures]]"
 ---
 # Registers
 - **Registers** are rapid access data stores on the CPU that store values used in ongoing computations.

@@ -17,6 +17,7 @@ links: "[[Haskell]]"
     The first guard to evaluate to `True` determines function's return value. There can be any number of guards. `otherwise` is another way to write `True`.
 
 - Guards are the same as **`if`-`then`-`else` structure**:
+	^if-then-else
     ```haskell
         power_if_then_else a b = 
         if b == 0 then 

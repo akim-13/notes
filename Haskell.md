@@ -14,5 +14,6 @@ tags:
 - [[Haskell Constructors & Pattern Matching | Constructors & Pattern Matching]]
 - [[Haskell Algorithms | Algorithms]]
 - [[Haskell Lazy Evaluation | Lazy Evaluation]]
+- [[Haskell IO| I/O]]
 
 ## Unsorted

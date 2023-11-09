@@ -105,7 +105,7 @@ links: "[[Haskell]]"
     - The syntax is very similar to mathematical **set comprehensions**:
         $$ \{ 3n + 1 | n \in \mathbb{N}, n \text{ is even}\} $$
 
-    - The same list can be achived by using [[./Haskell Standard Functions.md | maps and filters]] or [[./Haskell Functions.md#^sections | sections]] and [[./Haskell Functions.md#^func-comp | compositions]]:
+    - The same list can be achieved by using [[./Haskell Standard Functions.md | maps and filters]] or [[./Haskell Functions.md#^sections | sections]] and [[./Haskell Functions.md#^func-comp | compositions]]:
         ```haskell
         thatlist :: [Int]
         thatlist = map f (filter even [0..10])

@@ -105,4 +105,20 @@ links: "[[Haskell]]"
             putStrLn (x ++ " is on the list.")
             xs <- getList
             return (x:xs)
+	---
+	ghci> getList
+	Who's on the list? You
+	You is on the list.
+	
+	Who's on the list? Me
+	Me is on the list.
+	
+	Who's on the list? Us
+	Us is on the list.
+	
+	Who's on the list? Them
+	Them is on the list.
+	
+	Who's on the list? Nobody
+	["You","Me","Us","Them"]
     ```

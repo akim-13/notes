@@ -2,6 +2,7 @@
 tags:
   - cm12003
   - CS
+  - cm12002
 links:
   - "[[Computer Systems Architectures]]"
 ---

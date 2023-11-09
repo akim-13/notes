@@ -44,57 +44,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "8699dc72821c1564",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell IO.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "16e4942ab8a6f021",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell Conditionals.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1f3f8401600e9837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell Types.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "da09d7f59feab8b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell IO.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "where clause",
+                "query": "lists",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -141,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c46b2837f5751def",
@@ -180,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Haskell IO.md",
+                "file": "Computer Systems Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,22 +162,24 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "da09d7f59feab8b7",
+  "active": "8fd73cb353172448",
   "lastOpenFiles": [
+    "Computer Systems Architectures.md~",
+    "Memory Architectures.md",
+    "Computer Systems Architectures.md",
+    "Amdahl's Law.md",
+    "Flynn's Taxonomy.md",
     "Haskell.md",
-    "Haskell IO.md",
-    "4913",
     "Haskell Conditionals.md",
     "Haskell Types.md",
-    "Computer Systems Architectures.md",
+    "Haskell Lists.md",
+    "Haskell IO.md",
+    "4913",
     "Haskell Input & Output",
     "Haskell I/O.md",
     "Haskell I",
-    "Amdahl's Law.md",
-    "Flynn's Taxonomy.md",
     "Haskell Functions.md",
     "Attachments/Pasted image 20231031142035.png",
-    "Memory Architectures.md",
     "Attachments/Pasted image 20231030134910.png",
     "Attachments/Pasted image 20231030134822.png",
     "Attachments/Pasted image 20231030134810.png",
@@ -242,7 +197,6 @@
     "Cache.md",
     "C Basics.md",
     "Computer History.md",
-    "Haskell Lists.md",
     "Haskell Standard Functions.md",
     "Caching.md",
     "Haskell Constructors & Pattern Matching.md",

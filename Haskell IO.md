@@ -22,7 +22,11 @@ links: "[[Haskell]]"
 
     readFile :: String -> IO String
     s <- readFile f -- Opens a file `f` and reads contents to `s`.
+
+	read :: String -> a
+	read s :: a -- Convert `s` to a given type `a`.
     ```
+
     - These function have **two components**:
         1. An **IO action** — reading from / writing to the file system, standard IO, etc.
         2. A **return value** — e.g. the contents of the file being read, or the user’s input.

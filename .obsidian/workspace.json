@@ -32,21 +32,66 @@
             }
           },
           {
-            "id": "8fd73cb353172448",
+            "id": "306bcf4d88615873",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems Architectures.md",
+                "file": "Haskell IO.md",
                 "mode": "preview",
                 "source": true
-              },
-              "pinned": true
+              }
+            }
+          },
+          {
+            "id": "c8fb0c3b7620c9e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell Data Types.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7c8cca3ce7a1cf53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Harvard Architecture.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ff1169e565c5f192",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell Data Types.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "10a0f5ec580f163f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell Types.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lists",
+                "query": "\"type class\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -133,7 +178,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Systems Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,19 +206,22 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "8fd73cb353172448",
+  "active": "1508d72e405ed8c1",
   "lastOpenFiles": [
+    "Haskell Data Types.md",
+    "Haskell Types.md",
+    "Haskell.md",
+    "Haskell IO.md",
+    "Harvard Architecture.md",
+    "Computer Systems Architectures.md",
+    "4913",
+    "Haskell Constructors & Pattern Matching.md",
     "Computer Systems Architectures.md~",
     "Memory Architectures.md",
-    "Computer Systems Architectures.md",
     "Amdahl's Law.md",
     "Flynn's Taxonomy.md",
-    "Haskell.md",
     "Haskell Conditionals.md",
-    "Haskell Types.md",
     "Haskell Lists.md",
-    "Haskell IO.md",
-    "4913",
     "Haskell Input & Output",
     "Haskell I/O.md",
     "Haskell I",
@@ -184,7 +231,6 @@
     "Attachments/Pasted image 20231030134822.png",
     "Attachments/Pasted image 20231030134810.png",
     "Databases.md",
-    "Harvard Architecture.md",
     "Von Neumann Architecture.md",
     "Logical Connectives.md",
     "Attachments/Pasted image 20231029222038.png",
@@ -199,17 +245,14 @@
     "Computer History.md",
     "Haskell Standard Functions.md",
     "Caching.md",
-    "Haskell Constructors & Pattern Matching.md",
     "Haskell Algorithms.md",
     "Haskell Lazy Evaluation.md",
-    "Haskell Sorting Algorithms.md",
     "Haskell Functions.md~",
     "Haskell Basics.md~",
     "1-Haskell_Basics.hs",
     "Vieta's Formulas.md~",
     "Drafts",
     "First-order Differential Equations (FDEs).md~",
-    "Non-homogeneous SDEs.md~",
     "Untitled.canvas"
   ]
 }

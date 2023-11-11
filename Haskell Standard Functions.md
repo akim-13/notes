@@ -117,6 +117,7 @@ links:
         ```
 
 - **`foldr`** replaces `:` in a list with a given function `f`, and the last element (`[]`) with a given unit value `u`:[^foldr-eg]
+	^foldr
     ```haskell
     foldr :: (a -> b -> b) -> b -> [a] -> b
     foldr f u []     = u

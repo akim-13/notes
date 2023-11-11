@@ -11,6 +11,7 @@ links: "[[Haskell]]"
             data Weekday = Monday   | Tuesday  | Wednesday |
                            Thursday | Friday   | Saturday  | Sunday
             ```
+            However, only one constructor can be used when creating values of the data type.
         - Constructors can take in **parameters**, i.e. act like **functions**. When there is only one data constructor that takes in arguments, it is encouraged to name it the same as the type constructor:
             ```haskell
             -- Two data constructors (`Cricle` and `Rectangle`) 
@@ -37,10 +38,22 @@ links: "[[Haskell]]"
                 sum_fractions :: Fraction -> Fraction -> Fraction
                 sum_fractions (Fraction n1 d1) (Fraction n2 d2) = fraction (n1*n2 + n2*d1) (d1*d2)
                 ```
-            - The **type** of the *constructor* `Fraction` (i.e. the second `Fraction` in the data type definition) is:
+            - The **type** of the *data constructor* `Fraction` (i.e. the second `Fraction` in the data type definition) is:
                 ```haskell
                 Fraction :: Integer -> Integer -> Fraction
                 ```
+            - Constructors can be defined for **infix operators** using `:`:
+                ```haskell
+                data Expr = Num Int
+                    | Expr :+ Expr
+                    | Expr :- Expr
+                    | Expr :* Expr
+                    deriving Show
+                ---
+                ghci> Num 3 :+ (Num 5 :- (Num 4 :* Num 2)) 
+                Num 3 :+ (Num 5 :- (Num 4 :* Num 2))
+                ```
+                This is an [[#^inductive-data-types | inductive data type]] and a type of [[Haskell Trees#^cc80ee | tree]]. ^be153e
 
     - For example, the internal **definition of the Booleans** is:
         ```haskell
@@ -54,7 +67,7 @@ links: "[[Haskell]]"
     ```
     This data type is equivalent to the built-in tuple of two element `(a,b)`.
 
-- Built-in data types include:
+- **Built-in data types** include:
     - **Tuple** (`(a,b)`) — a fixed-size collection of elements.
         - The **number of elements** in a tuple can range from 2 to 15, e.g. `(a, b, c, d, e)` is also a tuple.
         - There is also a **zero-tuple**: `()`.
@@ -83,6 +96,7 @@ links: "[[Haskell]]"
         Note that this is just an example, in practice `Either` can be used for anything else, not only error messages.
 
 - Data type declarations can be **inductive** (a.k.a **recursive**):
+    ^inductive-data-types
     ```haskell
     data MyList a = MyNil | MyCons a (MyList a)
     ```
@@ -98,6 +112,8 @@ links: "[[Haskell]]"
     append Nil         ys = ys
     append (Cons x xs) ys = Cons x (append xs ys)
     ```
+    - Inductive data types can be used to define data types such as lists (as demonstrated above), **[[Haskell Trees | trees]]** and others.
+
 - The **`deriving`** keyword automatically generates instances of certain standard type classes (e.g. `Eq`, `Ord`), providing default implementations of the methods defined by those type classes:
     ```haskell
     data Color = Red | Green | Blue 

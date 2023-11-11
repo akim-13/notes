@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "306bcf4d88615873",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell IO.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "c8fb0c3b7620c9e1",
             "type": "leaf",
             "state": {
@@ -56,37 +44,25 @@
             }
           },
           {
-            "id": "7c8cca3ce7a1cf53",
+            "id": "a4a7b9f07fc69e8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Harvard Architecture.md",
+                "file": "Haskell Trees.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "ff1169e565c5f192",
+            "id": "c9ebc4492b076930",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haskell Data Types.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "10a0f5ec580f163f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell Types.md",
-                "mode": "preview",
+                "file": "Haskell Algorithms.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -208,13 +184,23 @@
   },
   "active": "1508d72e405ed8c1",
   "lastOpenFiles": [
+    "Haskell Trees.md",
+    "Haskell Algorithms.md",
     "Haskell Data Types.md",
-    "Haskell Types.md",
     "Haskell.md",
+    "4913",
+    "Haskell Standard Functions.md",
+    "Attachments/Pasted image 20231111140212.png",
+    "Attachments/Pasted image 20231111140202.png",
+    "Attachments/Pasted image 20231111133453.png",
+    "Attachments/Pasted image 20231111130450.png",
+    "Attachments/Pasted image 20231111125556.png",
+    "Attachments/Pasted image 20231111125434.png",
+    "Haskell Modules.md",
+    "Haskell Types.md",
     "Haskell IO.md",
     "Harvard Architecture.md",
     "Computer Systems Architectures.md",
-    "4913",
     "Haskell Constructors & Pattern Matching.md",
     "Computer Systems Architectures.md~",
     "Memory Architectures.md",
@@ -233,20 +219,11 @@
     "Databases.md",
     "Von Neumann Architecture.md",
     "Logical Connectives.md",
-    "Attachments/Pasted image 20231029222038.png",
-    "Attachments/Pasted image 20231029222028.png",
-    "Attachments/Pasted image 20231029220053.png",
-    "Attachments/Pasted image 20231029220046.png",
-    "Attachments/Pasted image 20231029214823.png",
-    "Attachments/Pasted image 20231029214753.png",
     "Registers.md",
     "Cache.md",
     "C Basics.md",
     "Computer History.md",
-    "Haskell Standard Functions.md",
     "Caching.md",
-    "Haskell Algorithms.md",
-    "Haskell Lazy Evaluation.md",
     "Haskell Functions.md~",
     "Haskell Basics.md~",
     "1-Haskell_Basics.hs",

@@ -32,7 +32,27 @@
             }
           },
           {
-            "id": "c8fb0c3b7620c9e1",
+            "id": "b7db58cae1c35ee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Systems Architectures.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "99b16dbb924eef81",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "2a9ba117b474a59f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,30 +64,55 @@
             }
           },
           {
-            "id": "a4a7b9f07fc69e8d",
+            "id": "124d1c73d73f7386",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haskell Trees.md",
+                "file": "Haskell Standard Functions.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "c9ebc4492b076930",
+            "id": "a6fdd944284fadc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haskell Algorithms.md",
+                "file": "Haskell IO.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "62ca319363dd5de6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "d97efd09cda2b8b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -97,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"type class\"",
+                "query": "Either",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -154,6 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,54 +228,54 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "1508d72e405ed8c1",
+  "active": "d97efd09cda2b8b7",
   "lastOpenFiles": [
-    "Haskell Trees.md",
-    "Haskell Algorithms.md",
-    "Haskell Data Types.md",
-    "Haskell.md",
+    "Databases.md",
+    "SQL.md",
+    "Attachments/Pasted image 20231126210225.png",
+    "Attachments/Pasted image 20231126204322.png",
+    "Attachments/Pasted image 20231126205223.png",
     "4913",
+    "Haskell.md",
+    "Haskell IO.md",
     "Haskell Standard Functions.md",
-    "Attachments/Pasted image 20231111140212.png",
-    "Attachments/Pasted image 20231111140202.png",
-    "Attachments/Pasted image 20231111133453.png",
-    "Attachments/Pasted image 20231111130450.png",
-    "Attachments/Pasted image 20231111125556.png",
-    "Attachments/Pasted image 20231111125434.png",
+    "Haskell Data Types.md",
+    "Fetch-Decode-Execute (FDE) Cycle.md",
+    "Attachments/Pasted image 20231121163158.png",
+    "Attachments/Pasted image 20231121163032.png",
+    "Attachments/Pasted image 20231121145455.png",
+    "Attachments/Pasted image 20231121144750.png",
+    "Attachments/Pasted image 20231121143406.png",
+    "Attachments/Pasted image 20231121142923.png",
+    "Attachments/Pasted image 20231121135738.png",
+    "Fetch-Decode-Execute (FDE) Cycle.md~",
+    "Computer Systems Architectures.md",
+    "Haskell Algorithms.md",
+    "Haskell Trees.md",
+    "Flynn's Taxonomy.md",
+    "Haskell Lists.md",
+    "Haskell Conditionals.md",
+    "Haskell Functions.md",
+    "Haskell Constructors & Pattern Matching.md",
+    "First-order Differential Equations (FDEs).md",
     "Haskell Modules.md",
     "Haskell Types.md",
-    "Haskell IO.md",
     "Harvard Architecture.md",
-    "Computer Systems Architectures.md",
-    "Haskell Constructors & Pattern Matching.md",
     "Computer Systems Architectures.md~",
     "Memory Architectures.md",
     "Amdahl's Law.md",
-    "Flynn's Taxonomy.md",
-    "Haskell Conditionals.md",
-    "Haskell Lists.md",
     "Haskell Input & Output",
     "Haskell I/O.md",
     "Haskell I",
-    "Haskell Functions.md",
-    "Attachments/Pasted image 20231031142035.png",
-    "Attachments/Pasted image 20231030134910.png",
-    "Attachments/Pasted image 20231030134822.png",
-    "Attachments/Pasted image 20231030134810.png",
-    "Databases.md",
     "Von Neumann Architecture.md",
     "Logical Connectives.md",
     "Registers.md",
     "Cache.md",
-    "C Basics.md",
-    "Computer History.md",
-    "Caching.md",
     "Haskell Functions.md~",
     "Haskell Basics.md~",
     "1-Haskell_Basics.hs",
     "Vieta's Formulas.md~",
     "Drafts",
-    "First-order Differential Equations (FDEs).md~",
     "Untitled.canvas"
   ]
 }

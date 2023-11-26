@@ -25,3 +25,5 @@ links:
         - **Atomicity** — two users cannot update the DB at once and failure leaves files in an inconsistent state.
         - **Security** — needs bespoke security in each application.
     - **Relational DBs** — a shared collection of logically related data and its descriptions. It contains *entities* (e.g. people, places, things) and *relationships* (associations between the entities).
+
+# Unsorted

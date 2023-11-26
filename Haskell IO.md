@@ -98,7 +98,7 @@ links: "[[Haskell]]"
     - **Guards cannot be used** inside a `do`-block, therefore [[Haskell Conditionals#^if-then-else | if-then-else structure]] is used instead.
     - The recursion is possible since `do` is [[#^do-is-io | itself an IO expression]].
 
-- To **build up return values**, the following recursive structure may be used:
+- To **accumulate return values**, the following recursive structure may be used:
     ```haskell
     getList = do
         putStr "Who's on the list?"

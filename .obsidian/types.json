@@ -4,6 +4,9 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "links": "multitext",
-    "Unit": "number"
+    "Unit": "number",
+    "Lecture": "date",
+    "Lecture No.": "number",
+    "Presentation": "multitext"
   }
 }

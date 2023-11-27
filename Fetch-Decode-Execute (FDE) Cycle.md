@@ -29,17 +29,49 @@ links: "[[Computer Systems Architectures]]"
 
     ![[Attachments/Pasted image 20231121145455.png]]
 
-- Real world example: **the Motorola MC68000 architecture**. Let us consider an addition operation that adds the 16-bit contents of a specified location to one of the eight data registers of this machine (register 5 in this example) — `ADD $1202, D5`, where `$` denotes that the following number is hexadecimal.
-    - The instruction is stored in 4 bytes — 2 byte control word and 2 byte extension word:
-        1. **Control word**: [`1101`] [`101`] [`001`] [`111000`], where each part represents (in order):
-            - `ADD` **instruction**.
-            - `D5` data **register**. 3 bits are used to be able to represent $2^3 = 8$ registers.
-            - **The size** of the data that the instruction operates on. This size determines how many bits of the data registers or memory the instruction will process. This operation size is critical because it tells the CPU how to interpret the data it's working with, ensuring that the correct amount of data is read from or written to the registers or memory. The possible values for the size are:
-            ![[Attachments/Pasted image 20231121163158.png]]
-            Where a byte is 8 bits, a word is 16 bits and longword is 32 bits. So `101` in this architecture means "add words to register".
-            - Additional information.
-        2. **Extension word** can store a value or point to an address, depending on the addressing mode (more on that later): `0001001000000010` = `$1202`.
-        <!--STOPPED ON SLIDE 21-->
+- **Real world example**: *the Motorola MC68000 architecture*. Let us consider an addition operation that adds the 16-bit contents of a specified location to one of the eight data registers of this machine (register 5 in this example) — `ADD $1202, D5`, where `$` denotes that the following number is hexadecimal. ^motorola
+    - The instruction is stored in 4 bytes — 2 byte control word and 2 byte extension word.
+    1. **Control word**: [`1101`] [`101`] [`001`] [`111000`] (`$DA78` in HEX), where each part represents (in order):
+        1. **Opcode** (Operation Code) — the instruction (`ADD` here).
+        2. **Operand** — any object that can be manipulated by opcode. In this example the `D5` data register is the *first operand*. 3 bits are used to be able to represent $2^3 = 8$ registers.
+        3. **The size** of the data that the instruction operates on. This size determines how many bits of the data registers or memory the instruction will process. This operation size is critical because it tells the CPU how to interpret the data it's working with, ensuring that the correct amount of data is read from or written to the registers or memory. The possible values for the size are:
+        ![[Attachments/Pasted image 20231121163158.png]]
+        Where a byte is 8 bits, a word is 16 bits and longword is 32 bits. So `101` in this architecture means "add words to register".
+        4. Additional information.
+    2. **Extension word** includes more additional information. In this case it points to an address, however it could also store a value, depending on the addressing mode (more on that later): `0001001000000010` = `$1202`. This is the *second operand*.
+
+        ![[Attachments/Pasted image 20231127183335.png]]
+    - Store and I/O devices are connected to the CPU via a single electronic “pathway”, or **bus**, that contains lines for *addresses*, *data* and *control* signals:
+
+        ![[Attachments/Pasted image 20231127183923.png]]
+
+    - The CPU also contains:
+        - A 16-bit **IR** for the instruction's control word
+        - Four **temporary registers** (`Tn`) for the instruction's extension words, of which there could be a maximum of four.
+
+            ![[Attachments/Pasted image 20231127184529.png]]
+
+    - The **FDE cycle**. Note that (X) is used to denote the contents of X and we take it that (PC) is `$100` to start:
+        1. **Fetch** phase:
+            - (PC) → placed on the address lines of the bus [`$100`];
+            - (PC) + 2 → PC [`$102`];
+            - Read signal is placed on the control lines of bus;
+            - Begin read from store, placing data on the data lines of bus [`$DA78`];
+            - Data lines on bus → IR [`$DA78`];
+        2. **Decode** phase:
+            - (IR) → decode logic in CPU.
+        3. **Execute** phase:
+            - (PC) → placed on the address lines of bus [`$102`];
+            - (PC) + 2 → PC [`$104`];
+            - Read signal is placed on the control lines of bus;
+            - Begin read from store, placing data on the data lines of bus [`$1202`];
+            - Data lines on bus → T1 [`$1202`];
+            - (T1) → placed on the address lines of bus [`$1202`];
+            - Read signal is placed on the control lines of bus;
+            - Begin read from store, placing data on the data lines of bus [contents of location `$1202`];
+            - Add the contents of the data lines of bus to the lowest order 16 bits of the 32-bit data register 5 in the ALU.
+            - At the end of this operation the (PC) points to the next instruction, whose control word should be found in location `$104`.
+
 
 [^legend]:
     - **PC**: Program Counter.

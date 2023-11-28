@@ -3,6 +3,8 @@ tags:
   - cm12002
   - programming
   - CS
+links:
+  - "[[Computer Systems Architectures]]"
 ---
 %%
 links:

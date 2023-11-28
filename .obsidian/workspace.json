@@ -30,31 +30,15 @@
             }
           },
           {
-            "id": "e771195194317533",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "1dbf27093e08257f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Instructions.md",
-                "mode": "preview",
+                "file": "Computer Systems Architectures.md",
+                "mode": "source",
                 "source": true
               }
-            }
-          },
-          {
-            "id": "1ecf63df51237b24",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -68,9 +52,45 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "e0968c6bc0cd5b58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C Basics.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d4d5e59e050e37fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "349a1b1537be9aab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -157,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control Instructions.md",
+                "file": "SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,12 +206,21 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "28906df876d99e55",
+  "active": "349a1b1537be9aab",
   "lastOpenFiles": [
-    "4913",
-    "Attachments/Pasted image 20231127222848.png",
-    "Control Instructions.md",
+    "Databases.md",
+    "C Basics.md",
+    "Computer Systems Architectures.md",
     "Instructions.md",
+    "Control Instructions.md",
+    "Attachments/Pasted image 20231128222241.png",
+    "Attachments/Pasted image 20231128222110.png",
+    "Attachments/Pasted image 20231128221812.png",
+    "Attachments/Pasted image 20231128220606.png",
+    "Attachments/Pasted image 20231128220524.png",
+    "4913",
+    "Attachments/Pasted image 20231128215159.png",
+    "Attachments/Pasted image 20231127222848.png",
     "Attachments/Pasted image 20231127220859.png",
     "CISC vs RISC.md",
     "SQL.md",
@@ -204,20 +233,12 @@
     "Operand Addressing Modes.md",
     "Attachments/Pasted image 20231127191934.png",
     "Attachments/Pasted image 20231127184529.png",
-    "Attachments/Pasted image 20231127183923.png",
-    "Attachments/Pasted image 20231127183335.png",
-    "Computer Systems Architectures.md",
     "Memory Architectures.md",
     "Haskell.md",
     "Haskell Modules.md",
     "Haskell Data Types.md",
     "Haskell IO.md",
     "Haskell Standard Functions.md",
-    "Databases.md",
-    "Attachments/Pasted image 20231126210225.png",
-    "Attachments/Pasted image 20231126204322.png",
-    "Attachments/Pasted image 20231126205223.png",
-    "Attachments/Pasted image 20231121163158.png",
     "Fetch-Decode-Execute (FDE) Cycle.md~",
     "Haskell Algorithms.md",
     "Haskell Trees.md",

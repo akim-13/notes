@@ -7,7 +7,7 @@ links:
 # Databases (DBs)
 - **Data** are raw, unsummarized, unanylyzed facts or figures.
 - **Database (DB)** is an organized collection of interrelated data.
-- **Database Management System (DBMS)** — software that manages and controls access to the DB, providing a systematic way to create, retrieve, update, and manage data within the DB (e.g MySQL).
+- **Database Management System (DBMS)** — software that manages and controls access to the DB, providing a systematic way to create, retrieve, update, and manage data within the DB (e.g some type of [[SQL]]).
     - The **advantages** of using a DBMS, rather than writing programs to access DBs directly, include:
         - **Data independence** — applications are not exposed to data representation or storage details.
         - **Efficient data access** — does not rely on good programmers.

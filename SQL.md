@@ -72,7 +72,7 @@ links: "[[Databases]]"
 
         ![[Attachments/Pasted image 20231126210225.png]]
 
-- The following is an example of how to create and manipulate a DB using `sqlite3` library in python:
+- The following is an example of how to create and manipulate a DB using `sqlite3` library in python (*also refer to the W9 worksheet*!):
     ```python
     import sqlite3
     

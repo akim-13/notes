@@ -88,9 +88,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "8a59ab84106b2aed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -177,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL.md",
+                "file": "AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,8 +218,18 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "349a1b1537be9aab",
+  "active": "8a59ab84106b2aed",
   "lastOpenFiles": [
+    "4913",
+    "Attachments/Pasted image 20231129215650.png",
+    "Attachments/Pasted image 20231129211135.png",
+    "Attachments/Pasted image 20231129210858.png",
+    "Attachments/Pasted image 20231129210716.png",
+    "Attachments/Pasted image 20231129201440.png",
+    "Attachments/Pasted image 20231129200754.png",
+    "Attachments/Pasted image 20231129195636.png",
+    "AI.md",
+    "SQL.md",
     "Databases.md",
     "C Basics.md",
     "Computer Systems Architectures.md",
@@ -216,14 +238,7 @@
     "Attachments/Pasted image 20231128222241.png",
     "Attachments/Pasted image 20231128222110.png",
     "Attachments/Pasted image 20231128221812.png",
-    "Attachments/Pasted image 20231128220606.png",
-    "Attachments/Pasted image 20231128220524.png",
-    "4913",
-    "Attachments/Pasted image 20231128215159.png",
-    "Attachments/Pasted image 20231127222848.png",
-    "Attachments/Pasted image 20231127220859.png",
     "CISC vs RISC.md",
-    "SQL.md",
     "Cache.md",
     "Registers.md",
     "Amdahl's Law.md",
@@ -231,8 +246,6 @@
     "Fetch-Decode-Execute (FDE) Cycle.md",
     "Flynn's Taxonomy.md",
     "Operand Addressing Modes.md",
-    "Attachments/Pasted image 20231127191934.png",
-    "Attachments/Pasted image 20231127184529.png",
     "Memory Architectures.md",
     "Haskell.md",
     "Haskell Modules.md",
@@ -244,8 +257,6 @@
     "Haskell Trees.md",
     "Haskell Lists.md",
     "Haskell Conditionals.md",
-    "Haskell Functions.md",
-    "Haskell Constructors & Pattern Matching.md",
     "Computer Systems Architectures.md~",
     "Haskell Input & Output",
     "Haskell I",

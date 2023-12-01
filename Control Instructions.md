@@ -55,9 +55,23 @@ presentations:
 - A usual **subroutine operation** is as follows: 
     - A block of instructions for performing the task is placed in the memory and the subroutine is called by branching to the starting location of the block.
     - When the block of instructions is completed, the subroutine returns to the point at which it was called.
-    - This behaviour can be implemented using the **LIFO stack** (Last In First Out)
+    - This behaviour can be implemented using the **LIFO stack** (Last In First Out):
 
         ![[Attachments/Pasted image 20231128221812.png]]
+
+- A call **stack** is used in order to *return to the right point in the program* after executing a branch/subroutine. Furthermore, it allows to *nest subroutines calls* to any depth (provided there is enough memory).
+    - Normally, **stack starts** at *high address* in memory and grows from higher addresses to lower ones.^[It is designed this way for historical and architectural reasons, but mainly becuase the **heap** (used for dynamically allocated memory) grows upwards from a lower memory address. Having the stack grow downwards from the top of memory ensures that both the heap and the stack have as much space as possible to expand without colliding.]
+    - A stack consists of a **block of successive memory locations** storing its contents, and a special register called the **stack pointer (SP)**, which stores the address of the "top" of the stack.
+    - To **push** a value onto the stack, *decrement* the address (see the first bullet point) in the stack pointer and store it there. 
+    - To **pop** a value from the stack, *dereference* (get the content of) the address stored in the stack pointer, which is then *incremented* by one.
+    - To **call** a subroutine, the contents of the program counter are pushed onto the stack and the PC is reset to the starting address of the subroutine.
+    - To **return**, the program counter is reset to the value popped from the stack.
+    - However, it is also necessary to store more information for context, when returning to the initial state. This is done using the **stack frame**, which stores:
+        - The return address.
+        - Argument variables passed on the stack.
+        - Local variables (in high level languages).
+        - Saved copies of any registers modified by the subprogram that need to be restored.
+
 
 - The following is an **example use of subroutines**:
 

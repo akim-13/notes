@@ -14,7 +14,7 @@ presentations:
     - Virtually all programs involve some **decision making**.
     - It helps if there are mechanisms for **breaking the task up into smaller pieces** that can be worked on one at a time.
 - Control instructions can **alter the contents of the PC** in order to *jump* (a.k.a. *branch*) to another instruction or execute a *subroutine*.
-- **Conditional branch/jump** — the branch is made (update program counter to equal address specified in operand) only if a certain condition is met. Otherwise, the next instruction in sequence is executed (increment program counter as usual).
+- **Conditional branch/jump** — the branch is made (update program counter to equal address specified in operand) only if a certain condition is met. Otherwise, the next instruction in sequence is executed (increment program counter as usual). ^branch-def
     - The following shows the **most common** conditional jump/branch instructions **names**.
 
         ![[Attachments/Pasted image 20231128215159.png]]
@@ -25,7 +25,7 @@ presentations:
 
 - **Unconditional branch/jump** — the branch is always taken. 
 
-- The following **example** shows how an unconditional and a conditional branch can be used to create a repeating loop of instructions. The instructions in locations 202 through 210 will be executed repeatedly until the result of subtracting `Y` from `X` is 0. Note that a branch can be either *forward* (an instruction with a higher address) or *backward* (lower address).
+- The following **example** shows how an unconditional and a conditional branch can be used to create a repeating loop of instructions. The instructions in locations 202 through 210 will be executed repeatedly until the result of subtracting `Y` from `X` is 0. Note that a branch can be either *forward* (an instruction with a higher address) or *backward* (lower address). ^branch-eg
 
     ![[Attachments/Pasted image 20231127222848.png]]
 

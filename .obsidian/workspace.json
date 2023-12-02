@@ -30,19 +30,19 @@
             }
           },
           {
-            "id": "8a59ab84106b2aed",
+            "id": "f7e34ced61159abe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI.md",
+                "file": "Pipelining and Superscalar Architecture.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control Instructions.md",
+                "file": "Pipelining and Superscalar Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,8 +158,12 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "28906df876d99e55",
+  "active": "f7e34ced61159abe",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20231202134321.png",
+    "Control Instructions.md",
+    "Pipelining and Superscalar Architecture.md",
+    "Attachments/Pasted image 20231202130002.png",
     "4913",
     "Computer Systems Architectures.md",
     "AI.md",
@@ -174,10 +178,8 @@
     "Databases.md",
     "C Basics.md",
     "Instructions.md",
-    "Control Instructions.md",
     "Attachments/Pasted image 20231128222241.png",
     "Attachments/Pasted image 20231128222110.png",
-    "Attachments/Pasted image 20231128221812.png",
     "CISC vs RISC.md",
     "Cache.md",
     "Registers.md",
@@ -196,7 +198,6 @@
     "Haskell Algorithms.md",
     "Haskell Trees.md",
     "Haskell Lists.md",
-    "Haskell Conditionals.md",
     "Computer Systems Architectures.md~",
     "Haskell Input & Output",
     "Haskell I",

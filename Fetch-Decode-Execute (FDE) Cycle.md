@@ -32,7 +32,7 @@ links: "[[Computer Systems Architectures]]"
 - **Real world example**: *the Motorola MC68000 architecture*. Let us consider an addition operation that adds the 16-bit contents of a specified location to one of the eight data registers of this machine (register 5 in this example) — `ADD $1202, D5`, where `$` denotes that the following number is hexadecimal. ^motorola
     - The instruction is stored in 4 bytes — 2 byte control word and 2 byte extension word.
     1. **Control word**: [`1101`] [`101`] [`001`] [`111000`] (`$DA78` in HEX), where each part represents (in order):
-        1. **Opcode** (Operation Code) — the instruction (`ADD` here).
+        1. **Opcode** (Operation Code) — the instruction (`ADD` here). 
         2. **Operand** — any object that can be manipulated by opcode. In this example the `D5` data register is the *first operand*. 3 bits are used to be able to represent $2^3 = 8$ registers.
         3. **The size** of the data that the instruction operates on. This size determines how many bits of the data registers or memory the instruction will process. This operation size is critical because it tells the CPU how to interpret the data it's working with, ensuring that the correct amount of data is read from or written to the registers or memory. The possible values for the size are:
         ![[Attachments/Pasted image 20231121163158.png]]

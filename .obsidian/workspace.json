@@ -18,30 +18,45 @@
             }
           },
           {
-            "id": "c71ad6a94006b12e",
+            "id": "6f82d05148b361b5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "960ec4f4b64f7412",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IO.md",
+                "file": "Amdahl's Law.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "83aa3c90ca23b08e",
+            "id": "eb92d875f5656256",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmed IO.md",
+                "file": "Computer Systems Architectures.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "opcode",
+                "query": "amd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -128,6 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,17 +172,24 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "1508d72e405ed8c1",
+  "active": "6f82d05148b361b5",
   "lastOpenFiles": [
-    "IO.md",
+    "README.md~",
+    "4913",
+    "Computer Systems Architectures.md",
+    "Amdahl's Law.md",
+    "README.md",
+    "Computer History.md",
+    "C Basics.md",
+    "Von Neumann Architecture.md",
+    "Harvard Architecture.md",
     "Programmed IO.md",
+    "Databases.md",
+    "SQL.md",
+    "IO.md",
     "Attachments/Pasted image 20231204100741.png",
     "Attachments/Pasted image 20231204100733.png",
-    "4913",
     "Attachments/Pasted image 20231204090808.png",
-    "SQL.md",
-    "Von Neumann Architecture.md",
-    "Computer Systems Architectures.md",
     "Attachments/Pasted image 20231203125025.png",
     "Attachments/Pasted image 20231203140625.png",
     "Attachments/Pasted image 20231203124724.png",
@@ -179,23 +202,16 @@
     "AI.md",
     "Attachments/Pasted image 20231129215650.png",
     "Attachments/Pasted image 20231129211135.png",
-    "Databases.md",
-    "C Basics.md",
     "Instructions.md",
     "CISC vs RISC.md",
     "Cache.md",
     "Registers.md",
-    "Amdahl's Law.md",
     "L'Hopital's Rule.md",
     "Flynn's Taxonomy.md",
     "Operand Addressing Modes.md",
     "Memory Architectures.md",
     "Haskell.md",
-    "Haskell Modules.md",
-    "Haskell Data Types.md",
-    "Haskell Standard Functions.md",
     "Fetch-Decode-Execute (FDE) Cycle.md~",
-    "Haskell Algorithms.md",
     "Computer Systems Architectures.md~",
     "Haskell Input & Output",
     "Haskell I",
@@ -203,7 +219,6 @@
     "Haskell Basics.md~",
     "1-Haskell_Basics.hs",
     "Vieta's Formulas.md~",
-    "Drafts",
     "Untitled.canvas"
   ]
 }

@@ -17,4 +17,4 @@ links:
     ![[Attachments/Pasted image 20231024141539.png]]
 
 - The **first computer to use** the HA was *The Harvard Mark I* in 1944.
-- The HA can be modified into a **HA/[[./Von Neumann Architecture.md | vNA]] hybrid** by introducing separate caching for code and data to increase efficidncy. *(How?)*
+- The HA can be modified into a **HA/[[./Von Neumann Architecture.md | vNA]] hybrid** by introducing separate caching for code and data to increase efficiency. *(How?)*

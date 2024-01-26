@@ -92,5 +92,5 @@ links:
 
     ![[Attachments/Pasted image 20231015203452.png]]
 
-### Simplified History
+## Simplified History
 ![[Attachments/Pasted image 20231012184957.png]]

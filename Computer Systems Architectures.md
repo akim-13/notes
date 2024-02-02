@@ -4,6 +4,29 @@ tags:
   - CS
 links:
 ---
+| Week |        Presentations Completed        | Comments |
+|------|---------------------------------------|----------|
+|  01  | <span style="color:green;">4/4</span> |         |
+|  02  | <span style="color:green;">2/2</span> | C basics are noted very briefly [[./C Basics.md \| here]]. |
+|  03  | <span style="color:green;">3/3</span> |         |
+|  04  | <span style="color:green;">4/4</span> | Note this[^note] in [[Computer Systems Architectures.md]]. |
+|  05  |  <span style="color:red;">0/5</span>  |         |
+|  06  | <span style="color:green;">0/0</span> | Consolidation week.         |
+|  07  |  <span style="color:red;">-/-</span>  |          |
+|  08  |  <span style="color:red;">-/-</span>  |          |
+|  09  |  <span style="color:red;">-/-</span>  |          |
+|  10  |  <span style="color:red;">2/3</span>  | TODO: Karnaugh maps (L02_P01) |
+|  11  |  <span style="color:red;">0/3</span>  |          |
+
+
+[^note]: The elements of the numeration system are that:
+as many digit symbols as the base are needed;
+the decimal system’s base or radix of ten, the cardinal number of standards in the basic set, is denoted by ‘10’;
+place values increase from right to left in successive powers of the base (a positional system);
+addition is used to make up a number consisting of combinations of digits and multiplication is used to make up the number represented by a digit in a specific place;
+there is an agreed starting point (the ‘unit’ place); and
+a point is used to denote this place.
+
 # Computer Systems Architectures
 
 - Classically **uniprocessor^[Uniprocessor architectures are characterised  by having one ALU.] architectures** include:
@@ -13,6 +36,8 @@ links:
     - There is no single dominant parallel architecture, but a set of alternatives that depend upon different **types of parallelisms** (either on *task* or *data* level) described by the [[Flynn's Taxonomy]].
     - There is a limit on how much a process can be parallelized described by the **[[Amdahl's Law]]**.
 - There are different types of **[[Memory Architectures | memory architectures]]** — shared and distributed.
+- [[IO]].
+- [[Boolean Logic and Circuits]].
 
 # Unsorted
 ## Shared Memory MIMD

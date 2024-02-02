@@ -35,3 +35,9 @@ presentations:
     - **Equational reasoning** (by *algebra*) — use a series of known laws or axioms to get from one formula to the other by algebraic manipulation.
     - **Semantic reasoning** or **model checking** (by *truth table*) — verify that the two formulas have the same output value for each possible input combination.
 
+- In order to build a circuit based on a Boolean formula, first the formula should be **simplified** as much as possible in order to use the least number of gates. **To simplify a formula**, the following procedure may be used:
+    1. Write it in the form of a **[[./Standard Sum of Products (SofP).md | SofP]]**;
+    2. Plot the product terms on a **[[Karnaugh Maps]]**;
+    3. **Find** the smallest number of the biggest valid **groupings** that will encompass all of the marked squares (1s) of the Karnaugh map;
+    4. Read off the function that results.
+

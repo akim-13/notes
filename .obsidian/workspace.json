@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems Architectures.md",
+                "file": "Boolean Logic and Circuits.md",
                 "mode": "preview",
                 "source": true
               }
@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boolean Logic and Circuits.md",
+                "file": "Karnaugh Maps.md",
                 "mode": "preview",
                 "source": true
               }
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Systems Architectures.md",
+                "file": "Karnaugh Maps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,16 +182,20 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "f6ce303304bd4b9f",
+  "active": "e08e2d0b740cc697",
   "lastOpenFiles": [
+    "Karnaugh Maps.md~",
+    "Karnaugh map.md~",
     "Boolean Logic and Circuits.md",
+    "Boolean Logic and Circuits.md~",
+    "Karnaugh Maps.md",
     "Computer Systems Architectures.md",
     "Standard Sum of Products (SofP).md",
+    "Logical Connectives.md",
     "Standard Sum of Products (SofP).md~",
     "Attachments/Pasted image 20240202183806.png",
     "Attachments/Pasted image 20240202183511.png",
     "Computer Systems Architectures.md~",
-    "Logical Connectives.md",
     "Attachments/Pasted image 20240202175953.png",
     "Attachments/Pasted image 20240202175413.png",
     "IO.md",
@@ -223,12 +227,9 @@
     "Pipelining and Superscalar Architecture.md",
     "AI.md",
     "Instructions.md",
-    "CISC vs RISC.md",
     "Fetch-Decode-Execute (FDE) Cycle.md~",
     "Haskell Input & Output",
     "Haskell I",
-    "Haskell Functions.md~",
-    "Haskell Basics.md~",
     "Untitled.canvas"
   ]
 }

@@ -21,7 +21,7 @@ Presentation:
     | F | T |       F      |
     | F | F |       F      |
 
-    - *Other notations* include: $X.Y, XY, X\&Y$.
+    - *Other notations* include: $X.Y,X \cdot Y, XY, X\&Y$.
     - Logical AND has the following **properties:**
         - **Associativity**: $(A.B).C = A.(B.C)$
         - **Commutativity**: $A.B = B.A$

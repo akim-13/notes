@@ -29,7 +29,7 @@ presentations:
 
     ![[Attachments/Pasted image 20240202175953.png]]
 
-    - Circuits can be represented using [[./Boolean Formulae.md | Boolean formulae]]. For instance, the above example is equivalent to: $P = (A + B) . C'$.
+    - Circuits can be represented using [[./Boolean Formulae.md | Boolean formulae]]. For instance, the above example is equivalent to: $P = (A + B)C'$.
 
 - There are **two ways** of ensuring that two formulas are **equivalent**:
     - **Equational reasoning** (by *algebra*) — use a series of known laws or axioms to get from one formula to the other by algebraic manipulation.
@@ -38,6 +38,6 @@ presentations:
 - In order to build a circuit based on a Boolean formula, first the formula should be **simplified** as much as possible in order to use the least number of gates. **To simplify a formula**, the following procedure may be used:
     1. Write it in the form of a **[[./Standard Sum of Products (SofP).md | SofP]]**;
     2. Plot the product terms on a **[[Karnaugh Maps]]**;
-    3. **Find** the smallest number of the biggest valid **groupings** that will encompass all of the marked squares (1s) of the Karnaugh map;
+    3. **Find** the *smallest* number of the *biggest* valid **groupings** that will encompass all of the marked squares (1s) of the Karnaugh map;
     4. Read off the function that results.
 

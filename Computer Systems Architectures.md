@@ -27,6 +27,8 @@ addition is used to make up a number consisting of combinations of digits and mu
 there is an agreed starting point (the ‘unit’ place); and
 a point is used to denote this place.
 
+**NOTE**: Unit codes for past papers are *CM10194* and *CM10195*.
+
 # Computer Systems Architectures
 
 - Classically **uniprocessor^[Uniprocessor architectures are characterised  by having one ALU.] architectures** include:

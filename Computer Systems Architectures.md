@@ -15,8 +15,8 @@ links:
 |  07  |  <span style="color:red;">-/-</span>  |          |
 |  08  |  <span style="color:red;">-/-</span>  |          |
 |  09  |  <span style="color:red;">-/-</span>  |          |
-|  10  |  <span style="color:red;">2/3</span>  | TODO: Karnaugh maps (L02_P01) |
-|  11  |  <span style="color:red;">0/3</span>  |          |
+|  10  | <span style="color:green;">3/3</span> |          |
+|  11  |  <span style="color:red;">1/3</span>  |          |
 
 
 [^note]: The elements of the numeration system are that:

@@ -15,7 +15,7 @@ presentations:
         - *Static* — they do not change over time.
         - *Deterministic* — for each combination of inputs there is a single output.
 
-        They are used to implement "timeless" operations such as **logic** and **arithmetic**.
+        They are used to efficiently implement "timeless" operations such as **logic** and **arithmetic**.
 
     2. **Sequential** — logic circuits that incorporate feedback from their outputs. Hence, they are: 
         - *Dynamic* — they change over time.

@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boolean Logic and Circuits.md",
+                "file": "Implementing Arithmetic Using Combinatorial Logic.md",
                 "mode": "preview",
                 "source": true
               }
@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard Sum of Products (SofP).md",
+                "file": "Boolean Logic and Circuits.md",
                 "mode": "preview",
                 "source": true
               }
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Karnaugh Maps.md",
+                "file": "Implementing Arithmetic Using Combinatorial Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,24 +182,26 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "e08e2d0b740cc697",
+  "active": "f6ce303304bd4b9f",
   "lastOpenFiles": [
-    "Computer Systems Architectures.md",
-    "Karnaugh Maps.md",
-    "Karnaugh Maps.md~",
+    "Implementing Arithmetic Using Combinatorial Logic.md~",
+    "Attachments/Pasted image 20240209202916.png",
+    "Attachments/Pasted image 20240209195849.png",
+    "Implementing Arithmetic Using Combinatorial Logic.md",
+    "Attachments/Pasted image 20240209202256.png",
+    "Attachments/Pasted image 20240209202218.png",
+    "Attachments/Pasted image 20240209201842.png",
+    "Attachments/Pasted image 20240209201505.png",
+    "Attachments/Pasted image 20240209200509.png",
+    "Attachments/Pasted image 20240209195556.png",
+    "Attachments/Pasted image 20240209194751.png",
+    "Attachments/Pasted image 20240209193454.png",
     "4913",
-    "Attachments/Pasted image 20240207144545.png",
-    "Attachments/Pasted image 20240207144422.png",
-    "Attachments/Pasted image 20240207144153.png",
-    "Attachments/Pasted image 20240207143539.png",
-    "Attachments/Pasted image 20240207142919.png",
-    "Attachments/Pasted image 20240207142847.png",
-    "Attachments/Pasted image 20240207142800.png",
-    "Attachments/Pasted image 20240207142555.png",
-    "Attachments/Pasted image 20240207142158.png",
-    "Attachments/Pasted image 20240207142104.png",
     "Boolean Logic and Circuits.md",
     "Standard Sum of Products (SofP).md",
+    "Karnaugh Maps.md",
+    "Computer Systems Architectures.md",
+    "Karnaugh Maps.md~",
     "Boolean Logic and Circuits.md~",
     "Logical Connectives.md",
     "Karnaugh map.md~",
@@ -226,9 +228,7 @@
     "Haskell IO.md",
     "Pipelining and Superscalar Architecture.md",
     "AI.md",
-    "Instructions.md",
     "Fetch-Decode-Execute (FDE) Cycle.md~",
-    "Haskell Input & Output",
     "Untitled.canvas"
   ]
 }

@@ -16,7 +16,7 @@ links:
 |  08  |  <span style="color:red;">-/-</span>  |          |
 |  09  |  <span style="color:red;">-/-</span>  |          |
 |  10  | <span style="color:green;">3/3</span> |          |
-|  11  |  <span style="color:red;">2/3</span>  |          |
+|  11  | <span style="color:green;">3/3</span> |          |
 
 
 [^note]: The elements of the numeration system are that:

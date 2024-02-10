@@ -10,14 +10,14 @@ presentations:
   - W10_L02_P01
 ---
 # Boolean Logic and Circuits
-- There are **two kinds of circuits**:
+- There are **two kinds of logic/circuits**:
     1. **Combinational** (or **combinatorial**) — logic circuits that combine their inputs in a way that is:
         - *Static* — they do not change over time.
         - *Deterministic* — for each combination of inputs there is a single output.
 
         They are used to efficiently implement "timeless" operations such as **logic** and **arithmetic**.
 
-    2. **Sequential** — logic circuits that incorporate feedback from their outputs. Hence, they are: 
+    2. **[[Sequential Logic | Sequential]]** — logic circuits that incorporate feedback from their outputs. Hence, they are: 
         - *Dynamic* — they change over time.
         - *Potentially (!) non-deterministic* — they may have several possible outputs for a single given input. 
 

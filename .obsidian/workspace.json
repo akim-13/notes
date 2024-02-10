@@ -18,24 +18,12 @@
             }
           },
           {
-            "id": "f6ce303304bd4b9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Implementing Arithmetic Using Combinatorial Logic.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "f82249f0cf33dec6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boolean Logic and Circuits.md",
+                "file": "Sequential Logic.md",
                 "mode": "preview",
                 "source": true
               }
@@ -59,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems Architectures.md",
+                "file": "Boolean Logic and Circuits.md",
                 "mode": "preview",
                 "source": true
               }
@@ -76,9 +64,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "2caf9f88ac414809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logical Connectives.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Implementing Arithmetic Using Combinatorial Logic.md",
+                "file": "Sequential Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,28 +194,30 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "978c3e623d6becd9",
+  "active": "f82249f0cf33dec6",
   "lastOpenFiles": [
-    "Karnaugh Maps.md",
-    "Computer Systems Architectures.md",
     "Boolean Logic and Circuits.md",
+    "Karnaugh Maps.md",
     "Implementing Arithmetic Using Combinatorial Logic.md",
-    "Implementing Arithmetic Using Combinatorial Logic.md~",
-    "Attachments/Pasted image 20240209202916.png",
-    "Attachments/Pasted image 20240209195849.png",
-    "Attachments/Pasted image 20240209202256.png",
-    "Attachments/Pasted image 20240209202218.png",
-    "Attachments/Pasted image 20240209201842.png",
-    "Attachments/Pasted image 20240209201505.png",
-    "Attachments/Pasted image 20240209200509.png",
-    "Attachments/Pasted image 20240209195556.png",
-    "Attachments/Pasted image 20240209194751.png",
-    "Attachments/Pasted image 20240209193454.png",
+    "Computer Systems Architectures.md",
+    "Logical Connectives.md",
+    "Sequential Logic.md",
+    "Attachments/Pasted image 20240210184443.png",
+    "Sequential Logic.md~",
+    "Attachments/Pasted image 20240210184036.png",
+    "Attachments/Pasted image 20240210182358.png",
     "4913",
+    "Attachments/Pasted image 20240210181915.png",
+    "Attachments/Pasted image 20240210154151.png",
+    "Attachments/Pasted image 20240210152903.png",
+    "Attachments/Pasted image 20240210152828.png",
+    "Attachments/Pasted image 20240210151243.png",
+    "Attachments/Pasted image 20240210145828.png",
+    "Attachments/Pasted image 20240210145721.png",
+    "Implementing Arithmetic Using Combinatorial Logic.md~",
     "Standard Sum of Products (SofP).md",
     "Karnaugh Maps.md~",
     "Boolean Logic and Circuits.md~",
-    "Logical Connectives.md",
     "Karnaugh map.md~",
     "Standard Sum of Products (SofP).md~",
     "Computer Systems Architectures.md~",
@@ -239,8 +241,6 @@
     "Control Instructions.md",
     "Haskell IO.md",
     "Pipelining and Superscalar Architecture.md",
-    "AI.md",
-    "Fetch-Decode-Execute (FDE) Cycle.md~",
     "Untitled.canvas"
   ]
 }

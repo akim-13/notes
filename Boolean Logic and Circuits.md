@@ -26,7 +26,7 @@ presentations:
 
     ![[Attachments/Pasted image 20240202175413.png]]
 
-- A **circuit** is multiple logic gates connected together.
+- A **circuit** is multiple logic gates connected together:
 
     ![[Attachments/Pasted image 20240202175953.png]]
 
@@ -46,7 +46,7 @@ presentations:
     5. Write down **the sum of resulting products**;
     6. **Factorise** if possible.
 
-    - **For example**, simplify the following formula or determine that it is already in the simplest form:
+    - For example, simplify the following formula or determine that it is already in the simplest form:
         $$ F = A + BC $$
         1. Write it down as a **SofP**:
         $$ F = ABC + ABC' + AB'C + AB'C' + A'BC $$

@@ -2,7 +2,8 @@
 tags:
   - cm12002
   - CS
-links: 
+links:
+  - "[[Computer Systems Architectures]]"
 presentations:
   - W11_L02_P01
 ---
@@ -19,7 +20,7 @@ presentations:
     1. **Three inputs** ($A, B$ and $C_{\text{in}}$, i.e. the *input carry*).
     2. **Two outputs** (The *sum* of $A$ and $B$, and the *carry*).
 
-    - The circuit is implemented by writing the "Sum" and "$C_{\text{out}}$" outputs as a [[./Standard Sum of Products (SofP).md | SofP]]:
+    - The **circuits are implemented** by writing the "Sum" and "$C_{\text{out}}$" outputs as a [[./Standard Sum of Products (SofP).md | SofP]]:
 
         ![[Attachments/Pasted image 20240209135517.png]]
 
@@ -96,11 +97,11 @@ presentations:
         ![[Attachments/Pasted image 20240209201842.png]]
 
 ## Bitwise Logical Operations
-- [[./Logical Connectives.md | Logical operations]] can be implemented on bit patterns, as well as single bits:
+- **[[./Logical Connectives.md | Logical operations]]** can be implemented **on bit patterns**, as well as **single bits**:
 
     ![[Attachments/Pasted image 20240209202916.png]]
     The above table is related to [[./C Basics.md | C basics]].
-- Note that bitwise operations are typically **parallel**[^parallel], and therefore *fast*.
+- Note that bitwise operations are typically **parallel**[^parallel], and therefore **fast**.
 
 [^parallel]: ChatGPT: 
     >In a CPU, bitwise operations like AND, OR, XOR, and NOT are inherently **parallel** because they are applied simultaneously to all the bit pairs in the operands. This means that for an 8-bit operand, for example, all 8 bitwise operations are performed at the same time, rather than sequentially. This is made possible by the architecture of the processor, which has the circuitry to perform these operations across all bits of the operand in a single CPU cycle.

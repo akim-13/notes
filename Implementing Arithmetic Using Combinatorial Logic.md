@@ -76,7 +76,7 @@ presentations:
 - **Shifts** can move bit patterns either *left* or *right*, by one or more places.
 
 - There are **three kinds of shifts**:
-    1. **Logical shift** — bits moved out are lost and zeroes fill the vacated positions:
+    1. **Logical shift** — bits moved out are lost and zeroes fill the vacated positions: ^logical
 
         ![[Attachments/Pasted image 20240209202256.png]]
         - *n*-place logical **left-shift** corresponds to **multiplication by $2^n$** on unsigned binary.
@@ -92,7 +92,7 @@ presentations:
 
         - Note that the **remainder cannot be negative**.
 
-    3. **Circular shift** (or **rotation**) — bits moved out of one end of a register are moved in at the opposite end of the register:
+    3. **Circular shift** (or **rotation**) — bits moved out of one end of a register are moved in at the opposite end of the register: ^circular
 
         ![[Attachments/Pasted image 20240209201842.png]]
 

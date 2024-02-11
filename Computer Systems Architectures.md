@@ -17,6 +17,7 @@ links:
 |  09  |  <span style="color:red;">-/-</span>  |          |
 |  10  | <span style="color:green;">3/3</span> |          |
 |  11  | <span style="color:green;">3/3</span> |          |
+|  19  | <span style="color:green;">3/3</span> | Only one presentation had actual content in it. |
 
 
 [^note]: The elements of the numeration system are that:
@@ -112,3 +113,11 @@ $$
 2^{16} &= 65536
 \end{align*}
 $$
+
+## Big Ideas in Computer Architecture^[TODO: This may be useful as an entry point to all sys arch notes.]
+- Principle of abstraction, used to build systems as layers
+- 5 Classic components of a Computer (von Neumann)
+- Stored program concept: instructions just data (von Neumann)
+- Data can be anything (integers, floating point, characters): a program determines what it is
+- Principle of Locality, exploited via a memory hierarchy (cache)
+- Greater performance by exploiting parallelism

@@ -18,67 +18,31 @@
             }
           },
           {
-            "id": "f82249f0cf33dec6",
+            "id": "9d66df7a7dcd7840",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sequential Logic.md",
+                "file": "Registers.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "e08e2d0b740cc697",
+            "id": "db27fc581a7ce0a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Karnaugh Maps.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "64de6f6390d77f74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boolean Logic and Circuits.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "978c3e623d6becd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Implementing Arithmetic Using Combinatorial Logic.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2caf9f88ac414809",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logical Connectives.md",
+                "file": "Computer Systems Architectures.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "program counter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -165,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sequential Logic.md",
+                "file": "Computer Systems Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,53 +158,53 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "f82249f0cf33dec6",
+  "active": "db27fc581a7ce0a3",
   "lastOpenFiles": [
+    "Computer Systems Architectures.md~",
+    "Counters.md",
+    "Counters.md~",
+    "Attachments/Pasted image 20240211181357.png",
+    "Attachments/Pasted image 20240211181322.png",
+    "Attachments/Pasted image 20240211181247.png",
+    "Attachments/Pasted image 20240211180832.png",
+    "Attachments/Pasted image 20240211180030.png",
+    "Registers.md",
+    "Implementing Arithmetic Using Combinatorial Logic.md",
+    "Fetch-Decode-Execute (FDE) Cycle.md",
+    "Control Instructions.md",
+    "Registers.md~",
+    "Attachments/Pasted image 20240211163215.png",
+    "Attachments/Pasted image 20240211153107.png",
+    "Sequential Logic.md",
     "Boolean Logic and Circuits.md",
     "Karnaugh Maps.md",
-    "Implementing Arithmetic Using Combinatorial Logic.md",
     "Computer Systems Architectures.md",
     "Logical Connectives.md",
-    "Sequential Logic.md",
     "Attachments/Pasted image 20240210184443.png",
     "Sequential Logic.md~",
     "Attachments/Pasted image 20240210184036.png",
     "Attachments/Pasted image 20240210182358.png",
     "4913",
-    "Attachments/Pasted image 20240210181915.png",
-    "Attachments/Pasted image 20240210154151.png",
-    "Attachments/Pasted image 20240210152903.png",
-    "Attachments/Pasted image 20240210152828.png",
-    "Attachments/Pasted image 20240210151243.png",
-    "Attachments/Pasted image 20240210145828.png",
-    "Attachments/Pasted image 20240210145721.png",
     "Implementing Arithmetic Using Combinatorial Logic.md~",
     "Standard Sum of Products (SofP).md",
     "Karnaugh Maps.md~",
     "Boolean Logic and Circuits.md~",
     "Karnaugh map.md~",
     "Standard Sum of Products (SofP).md~",
-    "Computer Systems Architectures.md~",
     "IO.md",
     "Harvard Architecture.md",
-    "Logical Connectives.md~",
     "Propositional Calculus.md",
     "Boolean Formulae.md",
     "Memory Architectures.md",
     "Von Neumann Architecture.md",
     "Flynn's Taxonomy.md",
     "README.md",
-    "README.md~",
     "Amdahl's Law.md",
     "Computer History.md",
     "C Basics.md",
     "Programmed IO.md",
     "Databases.md",
     "SQL.md",
-    "Fetch-Decode-Execute (FDE) Cycle.md",
-    "Control Instructions.md",
-    "Haskell IO.md",
-    "Pipelining and Superscalar Architecture.md",
     "Untitled.canvas"
   ]
 }

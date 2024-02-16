@@ -18,19 +18,7 @@
             }
           },
           {
-            "id": "9d66df7a7dcd7840",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registers.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "db27fc581a7ce0a3",
+            "id": "6774127abb7e93c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,7 +30,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,8 +146,13 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "db27fc581a7ce0a3",
+  "active": "6774127abb7e93c6",
   "lastOpenFiles": [
+    "C Pointers.md",
+    "C Pointers.md~",
+    "4913",
+    "Computer Systems Architectures.md",
+    "Registers.md",
     "Computer Systems Architectures.md~",
     "Counters.md",
     "Counters.md~",
@@ -168,7 +161,6 @@
     "Attachments/Pasted image 20240211181247.png",
     "Attachments/Pasted image 20240211180832.png",
     "Attachments/Pasted image 20240211180030.png",
-    "Registers.md",
     "Implementing Arithmetic Using Combinatorial Logic.md",
     "Fetch-Decode-Execute (FDE) Cycle.md",
     "Control Instructions.md",
@@ -178,19 +170,16 @@
     "Sequential Logic.md",
     "Boolean Logic and Circuits.md",
     "Karnaugh Maps.md",
-    "Computer Systems Architectures.md",
     "Logical Connectives.md",
     "Attachments/Pasted image 20240210184443.png",
     "Sequential Logic.md~",
     "Attachments/Pasted image 20240210184036.png",
     "Attachments/Pasted image 20240210182358.png",
-    "4913",
     "Implementing Arithmetic Using Combinatorial Logic.md~",
     "Standard Sum of Products (SofP).md",
     "Karnaugh Maps.md~",
     "Boolean Logic and Circuits.md~",
     "Karnaugh map.md~",
-    "Standard Sum of Products (SofP).md~",
     "IO.md",
     "Harvard Architecture.md",
     "Propositional Calculus.md",
@@ -204,7 +193,6 @@
     "C Basics.md",
     "Programmed IO.md",
     "Databases.md",
-    "SQL.md",
     "Untitled.canvas"
   ]
 }

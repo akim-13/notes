@@ -10,7 +10,7 @@ links:
 |  02  | <span style="color:green;">2/2</span> | C basics are noted very briefly [[./C Basics.md \| here]]. |
 |  03  | <span style="color:green;">3/3</span> |         |
 |  04  | <span style="color:green;">4/4</span> | Note this[^note] in [[Computer Systems Architectures.md]]. |
-|  05  |  <span style="color:red;">0/5</span>  |         |
+|  05  |  <span style="color:red;">0/5</span>  | Data representation. |
 |  06  | <span style="color:green;">0/0</span> | Consolidation week.         |
 |  07  |  <span style="color:red;">-/-</span>  |          |
 |  08  |  <span style="color:red;">-/-</span>  |          |
@@ -18,6 +18,7 @@ links:
 |  10  | <span style="color:green;">3/3</span> |          |
 |  11  | <span style="color:green;">3/3</span> |          |
 |  19  | <span style="color:green;">3/3</span> | Only one presentation had actual content in it. |
+|  20  | <span style="color:red;">1/2</span>   |          |
 
 
 [^note]: The elements of the numeration system are that:

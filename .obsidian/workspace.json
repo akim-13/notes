@@ -18,12 +18,24 @@
             }
           },
           {
-            "id": "6774127abb7e93c6",
+            "id": "ada333b89084eb18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems Architectures.md",
+                "file": "Operating Systems.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cd477f185fe5a330",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Resources.md",
                 "mode": "preview",
                 "source": true
               }
@@ -77,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c46b2837f5751def",
@@ -117,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Systems Architectures.md",
+                "file": "Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,12 +157,18 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "6774127abb7e93c6",
+  "active": "ada333b89084eb18",
   "lastOpenFiles": [
+    "Operating Systems.md~",
+    "Attachments/Pasted image 20240220214445.png",
+    "System Resources.md",
+    "System Resources.md~",
+    "Operating Systems.md",
+    "C Basics.md",
     "C Pointers.md",
+    "Computer Systems Architectures.md",
     "C Pointers.md~",
     "4913",
-    "Computer Systems Architectures.md",
     "Registers.md",
     "Computer Systems Architectures.md~",
     "Counters.md",
@@ -174,12 +191,9 @@
     "Attachments/Pasted image 20240210184443.png",
     "Sequential Logic.md~",
     "Attachments/Pasted image 20240210184036.png",
-    "Attachments/Pasted image 20240210182358.png",
     "Implementing Arithmetic Using Combinatorial Logic.md~",
     "Standard Sum of Products (SofP).md",
     "Karnaugh Maps.md~",
-    "Boolean Logic and Circuits.md~",
-    "Karnaugh map.md~",
     "IO.md",
     "Harvard Architecture.md",
     "Propositional Calculus.md",
@@ -190,9 +204,6 @@
     "README.md",
     "Amdahl's Law.md",
     "Computer History.md",
-    "C Basics.md",
-    "Programmed IO.md",
-    "Databases.md",
     "Untitled.canvas"
   ]
 }

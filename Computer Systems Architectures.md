@@ -18,7 +18,9 @@ links:
 |  10  | <span style="color:green;">3/3</span> |          |
 |  11  | <span style="color:green;">3/3</span> |          |
 |  19  | <span style="color:green;">3/3</span> | Only one presentation had actual content in it. |
-|  20  | <span style="color:red;">1/2</span>   |          |
+|  20  | <span style="color:red;">1/2</span>   | C malloc stuff, wasn't covered in the lecture, a recording should be posted.         |
+|  21  | <span style="color:green;">2/2</span>   |  [Slides](https://people.bath.ac.uk/masrjb/CourseNotes/cm12002.html) *1*, *2*, and the beginning of *3*.        |
+|  22  | <span style="color:red;">0/2</span>   | Slides *3*, *4* and the beginning of *5*.         |
 
 
 [^note]: The elements of the numeration system are that:

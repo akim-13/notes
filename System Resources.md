@@ -3,7 +3,7 @@ tags:
   - cm12002
   - CS
 links:
-  - "[[Operating Systems]]"
+  - "[[Operating Systems (OSs)]]"
   - "[[Computer Systems Architectures]]"
 presentations:
   - W21_L01_P02

@@ -4,8 +4,8 @@ tags:
   - CS
 links:
 ---
-| Week |        Presentations Completed        | Comments |
-|------|---------------------------------------|----------|
+| Week |        Presentations       | Comments |
+|:------:|:---------------------------------------:|:----------:|
 |  01  | <span style="color:green;">4/4</span> |         |
 |  02  | <span style="color:green;">2/2</span> | C basics are noted very briefly [[./C Basics.md \| here]]. |
 |  03  | <span style="color:green;">3/3</span> |         |
@@ -14,13 +14,13 @@ links:
 |  06  | <span style="color:green;">0/0</span> | Consolidation week.         |
 |  07  |  <span style="color:red;">-/-</span>  |          |
 |  08  |  <span style="color:red;">-/-</span>  |          |
-|  09  |  <span style="color:red;">-/-</span>  |          |
+|  09  |  <span style="color:red;">2/3</span>  | *L03_P01* interrupts and DMA.        |
 |  10  | <span style="color:green;">3/3</span> |          |
 |  11  | <span style="color:green;">3/3</span> |          |
-|  19  | <span style="color:green;">3/3</span> | Only one presentation had actual content in it. |
-|  20  | <span style="color:red;">1/2</span>   | C malloc stuff, wasn't covered in the lecture, a recording should be posted.         |
-|  21  | <span style="color:green;">2/2</span>   |  [Slides](https://people.bath.ac.uk/masrjb/CourseNotes/cm12002.html) *1*, *2*, and the beginning of *3*.        |
-|  22  | <span style="color:red;">0/2</span>   | Slides *3*, *4* and the beginning of *5*.         |
+|  19  | <span style="color:green;">3/3</span> |          |
+|  20  | <span style="color:red;">1/2</span>   | C `malloc()` stuff, wasn't covered in the lecture, a recording should be posted.         |
+|  21  | <span style="color:green;">2.5/2.5</span>   |  [Slides](https://people.bath.ac.uk/masrjb/CourseNotes/cm12002.html) *1*, *2*, and the beginning of *3*.        |
+|  22  | <span style="color:red;">2/2.5</span>   | Slides *3*, *4* and the beginning of *5*.         |
 
 
 [^note]: The elements of the numeration system are that:

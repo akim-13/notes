@@ -23,14 +23,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History of OSs.md",
+                "file": "Scheduling.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "6e6cf03679720821",
+            "id": "c1341ac91b28c22d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,9 +40,33 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "4579ef6e0e0eef94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS Memory Protection.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2e79ec4687e6546d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Systems Architectures.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -72,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "program counter",
+                "query": "throughput",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +113,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c46b2837f5751def",
@@ -128,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "History of OSs.md",
+                "file": "Computer Systems Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,19 +182,32 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "ada333b89084eb18",
+  "active": "2e79ec4687e6546d",
   "lastOpenFiles": [
-    "History of OSs.md~",
-    "Scheduling.md",
-    "Scheduling.md~",
+    "Memory Architectures.md",
     "History of OSs.md",
+    "History of OSs.md~",
+    "OS Memory Protection.md",
+    "OS Memory Protection.md~",
+    "4913",
+    "OS Modes and Rings.md",
+    "OS Modes and Rings.md~",
+    "Scheduling.md",
+    "Attachments/Pasted image 20240302153345.png",
+    "Attachments/Pasted image 20240302143154.png",
+    "Attachments/Pasted image 20240302123740.png",
+    "OS Modes.md~",
+    "Operand Addressing Modes.md",
+    "Scheduling.md~",
+    "Computer Systems Architectures.md",
+    "Pipelining and Superscalar Architecture.md",
+    "IO.md",
     "Attachments/Pasted image 20240301201453.png",
     "Attachments/Pasted image 20240301192601.png",
     "Attachments/Pasted image 20240301192537.png",
     "Boolean Logic and Circuits.md",
     "Sequential Logic.md",
     "Operating Systems (OSs).md",
-    "Computer Systems Architectures.md",
     "Computer Systems Architectures.md~",
     "System Resources.md",
     "Operating Systems.md~",
@@ -178,32 +216,20 @@
     "C Basics.md",
     "C Pointers.md",
     "C Pointers.md~",
-    "4913",
     "Registers.md",
     "Counters.md",
-    "Counters.md~",
     "Attachments/Pasted image 20240211181357.png",
     "Attachments/Pasted image 20240211181322.png",
     "Attachments/Pasted image 20240211181247.png",
-    "Attachments/Pasted image 20240211180832.png",
-    "Attachments/Pasted image 20240211180030.png",
     "Implementing Arithmetic Using Combinatorial Logic.md",
     "Fetch-Decode-Execute (FDE) Cycle.md",
     "Control Instructions.md",
-    "Registers.md~",
-    "Attachments/Pasted image 20240211163215.png",
     "Karnaugh Maps.md",
     "Logical Connectives.md",
-    "Sequential Logic.md~",
     "Standard Sum of Products (SofP).md",
-    "IO.md",
     "Harvard Architecture.md",
     "Propositional Calculus.md",
     "Boolean Formulae.md",
-    "Memory Architectures.md",
-    "Von Neumann Architecture.md",
-    "Flynn's Taxonomy.md",
-    "README.md",
     "Untitled.canvas"
   ]
 }

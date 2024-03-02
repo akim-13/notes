@@ -58,6 +58,24 @@ presentations:
     - **When the application finished**, it would be expected to jump back to the monitor, so the monitor could deal with the next program.
     - The monitor **is not running while a program is running**, it only does its job when the program jumps back to it.
     - **Multitasking improves the efficiency** of use of a computer since while one program waits for a slow peripheral, another program can run.
-    - However, there were several **problems**:
-        1. Programs could accidentally or intentionally **corrupt each other or the monitor**.
-        2. There was **no way to return control** to the monitor, e.g. in the case when a program goes into an infinite loop it can *bring down the entire system*.
+
+- However, there were several **problems**:
+    1. Programs could accidentally or intentionally **corrupt each other or the monitor**.
+    2. There was **no way to return control** to the monitor, e.g. in the case when a program goes into an infinite loop it can *bring down the entire system*.
+    - Essentially, the OSs relied on the **cooperative approach**, which was not very robust.
+    - The *first problem* was solved by **[[OS Memory Protection| system modes and rings]]**.
+    - The *second problem* was solved by **[[./Scheduling.md | preemptive scheduling]]**. The interrupt mechanism it employs became another way of *bridging the gap* between slow humans and fast computers.
+
+- **Brief history of how solutions** to the aforementioned problems **got implemented** in the industry:
+    > **Preemption and memory protection** appeared in OSs for large mainframe computers and Unix for minicomputers in the late 1960s. When microcomputers (IBM PC) arrived in the early 1980s much of OS knowledge was thrown away and DOS (Disk Operating System) was non-preemptive, single process and no protection. This was because the earliest PC hardware did not support such things (no rings).
+
+    > Support was rapidly added in later PC hardware, but DOS and, later, Windows 3.1 took no advantage of it: the lack of protection meaning a single bad program could mess up the OS and crash the entire computer Windows NT was the first true OS from Microsoft (mid 1990s) for PCs, possibly as much as a decade after other OSs (such as Unix derivatives) were providing preemption and protection on the same hardware Incidentally, Microsoft’s need for backwards compatibility with these early systems is a major reason why they have so many problems with security.
+
+- **Current state** of OSs with regards to **preemption and memory protection**:
+    > - **Windows**. Preemptive multitasking from Windows NT (1996) onwards. Previously (Windows 95 etc.) was little more than a monitor with a pretty interface on top
+    > - **Linux**. A Unix re-implementation. Preemptive multitasking from inception (1991). (Recall that Unix had preemption from early 1970s)
+    > - **MacOS**. MacOS X is a Unix derivative (BSD), from 1999 onwards. Earlier systems (MacOS 9 and earlier) were completely different, with no preemption, only cooperative
+
+- In contrast, in the **embedded market** are things are much more mixed, with **both preemptive and cooperative OSs**, as required by the application.
+    - All **PC-style OSs** have MMU protection (and more); 
+    - While **embedded systems** have it if required, otherwise not (so not to have the cost of the MMU hardware).

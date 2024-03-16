@@ -24,9 +24,9 @@ presentations:
         - The **paper tapes** had either 5 or 8 holes (hence 8 bits in a byte late on).
 
     - Jobs would be given to **operators** who would load and run them, collect the results and then send the results back to the programmer.
-    - As computer time was limited, there was an issue of **[[Scheduling | scheduling]]** jobs, initially done by hand.
+    - As computer time was limited, there was an issue of **[[OS Scheduling| scheduling]]** jobs, initially done by hand.
 
-- **Spooling** is a process used in computing to manage data by holding it in a temporary storage area before it's processed.
+- **Spooling** is a process used in computing to manage data by holding it in a temporary storage area before it's processed. ^spooling
     - In order for big and expensive computers to always run programs to minimized time wastage, spooling was utilized in the form of operators loading as many programs onto a fast medium, like a **magnetic tape**. The computer would load and run them as fast as hardware allowed.
     - Spooling would also be **used on output**: the output would be written to a magnetic tape, which could then later be attached to a printer (because printers are slower than computers).
     - This **addressed the disparity** between *human* and *computer* speeds.
@@ -64,7 +64,7 @@ presentations:
     2. There was **no way to return control** to the monitor, e.g. in the case when a program goes into an infinite loop it can *bring down the entire system*.
     - Essentially, the OSs relied on the **cooperative approach**, which was not very robust.
     - The *first problem* was solved by **[[OS Memory Protection| system modes and rings]]**.
-    - The *second problem* was solved by **[[./Scheduling.md | preemptive scheduling]]**. The interrupt mechanism it employs became another way of *bridging the gap* between slow humans and fast computers.
+    - The *second problem* was solved by **[[OS Scheduling| preemptive scheduling]]**. The interrupt mechanism it employs became another way of *bridging the gap* between slow humans and fast computers.
 
 - **Brief history of how solutions** to the aforementioned problems **got implemented** in the industry:
     > **Preemption and memory protection** appeared in OSs for large mainframe computers and Unix for minicomputers in the late 1960s. When microcomputers (IBM PC) arrived in the early 1980s much of OS knowledge was thrown away and DOS (Disk Operating System) was non-preemptive, single process and no protection. This was because the earliest PC hardware did not support such things (no rings).

@@ -18,31 +18,7 @@
             }
           },
           {
-            "id": "ada333b89084eb18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "History of OSs.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c1341ac91b28c22d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registers.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4579ef6e0e0eef94",
+            "id": "2e79ec4687e6546d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -59,25 +35,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Memory Protection.md",
+                "file": "OS Scheduling.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "2e79ec4687e6546d",
+            "id": "dcee1db51c6522c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems Architectures.md",
+                "file": "System Resources.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "920e1f36eaf2d681",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPU Scheduling Algorithms.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -107,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "interrupt",
+                "query": "spooling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -164,6 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CPU Scheduling Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,23 +183,27 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "1508d72e405ed8c1",
+  "active": "920e1f36eaf2d681",
   "lastOpenFiles": [
-    "OS Processes.md~",
+    "OS Scheduling.md~",
+    "System Resources.md",
+    "OS Scheduling.md",
+    "CPU Scheduling Algorithms.md~",
+    "CPU Scheduling Algorithms.md",
+    "History of OSs.md",
+    "Pipelining and Superscalar Architecture.md",
     "OS Processes.md",
     "OS Memory Protection.md",
+    "Registers.md",
+    "Computer Systems Architectures.md",
+    "Operating Systems (OSs).md",
+    "OS Processes.md~",
     "Attachments/Pasted image 20240306201434.png",
     "4913",
     "Attachments/Pasted image 20240306195625.png",
     "Attachments/Pasted image 20240306195315.png",
-    "History of OSs.md",
-    "Registers.md",
     "Operand Addressing Modes.md",
     "Attachments/Solving Inequalities.md",
-    "Scheduling.md",
-    "System Resources.md",
-    "Computer Systems Architectures.md",
-    "Operating Systems (OSs).md",
     "publish.css~",
     "publish.css",
     "Memory Architectures.md",
@@ -221,15 +215,12 @@
     "Attachments/Pasted image 20240302143154.png",
     "Attachments/Pasted image 20240302123740.png",
     "OS Modes.md~",
-    "Scheduling.md~",
-    "Pipelining and Superscalar Architecture.md",
     "IO.md",
     "Attachments/Pasted image 20240301201453.png",
     "Attachments/Pasted image 20240301192601.png",
     "Attachments/Pasted image 20240301192537.png",
     "Boolean Logic and Circuits.md",
     "Sequential Logic.md",
-    "Computer Systems Architectures.md~",
     "Attachments/Pasted image 20240220214445.png",
     "C Basics.md",
     "C Pointers.md",
@@ -239,7 +230,6 @@
     "Control Instructions.md",
     "Karnaugh Maps.md",
     "Logical Connectives.md",
-    "Standard Sum of Products (SofP).md",
     "Untitled.canvas"
   ]
 }

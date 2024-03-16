@@ -17,7 +17,7 @@ presentations:
         - This is a **more common approach** since threads share the same memory and resources of their parent process, making them quicker to create and switch between compared to processes. 
     3. **Hybrid**: multiple processes that utilize multithreading. *Non-assessable.*
 
-- The OS has to [[./Scheduling.md | schedule]] and [[./OS Memory Protection.md | protect]] processes. Therefore, it has to **keep track of a lot of information** about each process, including:
+- The OS has to [[OS Scheduling| schedule]] and [[./OS Memory Protection.md | protect]] processes. Therefore, it has to **keep track of a lot of information** about each process, including:
     - Where in memory its **code** is.
     - Where in memory its **data** is.
     - What **permissions** it has on those parts of memory ([[./OS Memory Protection.md#MMU | MMU flags]]).

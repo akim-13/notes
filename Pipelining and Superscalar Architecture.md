@@ -15,7 +15,7 @@ presentations: W09_L01_P01
 
 - Some of the metrics used when evaluating the **performance of a CPU** are:
     - **Latency** — the time it takes to complete a single task or operation. 
-    - **Throughput** — the number of tasks or operations a CPU can process in a given unit of time. Both pipelining and superscalar architecture focus on this aspect of performance.
+    - **Throughput** — the number of tasks or operations a CPU can process in a given unit of time. Both pipelining and superscalar architecture focus on this aspect of performance. ^throughput
 
 - **Pipelining** is a technique used to increase the *throughput* of the processor by allowing multiple instructions to be processed simultaneously in different stages of their execution.
 

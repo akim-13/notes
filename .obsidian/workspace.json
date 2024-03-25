@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Scheduling.md",
+                "file": "Deadlock.md",
                 "mode": "preview",
                 "source": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS Scheduling.md",
+                "file": "Deadlock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,14 +161,16 @@
   },
   "active": "920e1f36eaf2d681",
   "lastOpenFiles": [
+    "Deadlock.md~",
+    "OS Scheduling.md~",
+    "OS Scheduling.md",
+    "Deadlock.md",
     "CPU Scheduling Algorithms.md",
     "CPU Scheduling Algorithms.md~",
     "4913",
     "Computer Systems Architectures.md",
     "Attachments/Pasted image 20240323175417.png",
     "System Resources.md",
-    "OS Scheduling.md~",
-    "OS Scheduling.md",
     "History of OSs.md",
     "Pipelining and Superscalar Architecture.md",
     "OS Processes.md",
@@ -205,7 +207,6 @@
     "Fetch-Decode-Execute (FDE) Cycle.md",
     "Control Instructions.md",
     "Karnaugh Maps.md",
-    "Logical Connectives.md",
     "Untitled.canvas"
   ]
 }

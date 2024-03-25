@@ -50,6 +50,7 @@ presentations:
     8. Try to **distribute work** amongst multiple devices; e.g, CPUs, disks and networks.
     9. Try to make behaviour **predictable**: do not allow for wildly erratic behaviour.
     10. Try to **degrade gracefully** under heavy load.
+    11. Avoiding, preventing or dealing with **[[./Deadlock.md | deadlocks]]**.
 
 - Measurements used to **quantify the available resources** include:
     - **CPU cycles** used.

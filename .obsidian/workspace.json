@@ -18,36 +18,12 @@
             }
           },
           {
-            "id": "2e79ec4687e6546d",
+            "id": "a67276030583800d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Processes.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f9bf867cf2565853",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OS Scheduling.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "dcee1db51c6522c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Resources.md",
+                "file": "Computer Systems Architectures.md",
                 "mode": "preview",
                 "source": true
               }
@@ -59,14 +35,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPU Scheduling Algorithms.md",
+                "file": "OS Scheduling.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPU Scheduling Algorithms.md",
+                "file": "OS Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,21 +161,22 @@
   },
   "active": "920e1f36eaf2d681",
   "lastOpenFiles": [
-    "OS Scheduling.md~",
-    "System Resources.md",
-    "OS Scheduling.md",
-    "CPU Scheduling Algorithms.md~",
     "CPU Scheduling Algorithms.md",
+    "CPU Scheduling Algorithms.md~",
+    "4913",
+    "Computer Systems Architectures.md",
+    "Attachments/Pasted image 20240323175417.png",
+    "System Resources.md",
+    "OS Scheduling.md~",
+    "OS Scheduling.md",
     "History of OSs.md",
     "Pipelining and Superscalar Architecture.md",
     "OS Processes.md",
     "OS Memory Protection.md",
     "Registers.md",
-    "Computer Systems Architectures.md",
     "Operating Systems (OSs).md",
     "OS Processes.md~",
     "Attachments/Pasted image 20240306201434.png",
-    "4913",
     "Attachments/Pasted image 20240306195625.png",
     "Attachments/Pasted image 20240306195315.png",
     "Operand Addressing Modes.md",
@@ -221,7 +198,6 @@
     "Attachments/Pasted image 20240301192537.png",
     "Boolean Logic and Circuits.md",
     "Sequential Logic.md",
-    "Attachments/Pasted image 20240220214445.png",
     "C Basics.md",
     "C Pointers.md",
     "Counters.md",

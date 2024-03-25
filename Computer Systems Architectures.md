@@ -21,7 +21,8 @@ links:
 |  20  | <span style="color:red;">1/2</span>   | C `malloc()` stuff, wasn't covered in the lecture, a recording should be posted.         |
 |  21  | <span style="color:green;">2.5/2.5</span>   |  [Slides](https://people.bath.ac.uk/masrjb/CourseNotes/cm12002.html) *1*, *2*, and the beginning of *3*.        |
 |  22  | <span style="color:green;">2/2</span>   | Slides *3* and *4*.         |
-|  23  | <span style="color:red;">1/2</span>   | Slides *5* and *6*.         |
+|  23  | <span style="color:green;">2/2</span>   | Slides *5* and *6*.         |
+|  24  | <span style="color:red;">0/2</span>   | Slides *7* and *8*.         |
 
 
 [^note]: The elements of the numeration system are that:

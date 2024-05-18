@@ -8,6 +8,8 @@
     "Lecture": "date",
     "Lecture No.": "number",
     "Presentation": "multitext",
-    "presentations": "multitext"
+    "presentations": "multitext",
+    "something": "checkbox",
+    "dfg": "number"
   }
 }

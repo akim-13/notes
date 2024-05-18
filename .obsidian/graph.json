@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "-path:Attachments -tag:#Practice  ",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,44 +8,44 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#Math/Pure tag:#Math/Applied",
+      "query": "tag:#cm12001  ",
       "color": {
         "a": 1,
-        "rgb": 1742805
+        "rgb": 14048348
       }
     },
     {
-      "query": "tag:#Math/Applied",
+      "query": "tag:#cm12002  ",
       "color": {
         "a": 1,
-        "rgb": 1725141
+        "rgb": 109891
       }
     },
     {
-      "query": "tag:#Math/Pure",
+      "query": "tag:#cm12003  ",
       "color": {
         "a": 1,
-        "rgb": 4449253
+        "rgb": 10841831
       }
     },
     {
-      "query": "tag:#CS  ",
+      "query": "tag:#Math  ",
       "color": {
         "a": 1,
-        "rgb": 7601920
+        "rgb": 15646266
       }
     }
   ],
-  "collapse-display": false,
-  "showArrow": true,
+  "collapse-display": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 0.995470265138672,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.597206211432834,
+  "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 133,
-  "scale": 1.1966251538972241,
+  "linkDistance": 250,
+  "scale": 1.3289870237284829,
   "close": true
 }

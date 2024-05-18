@@ -23,26 +23,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems Architectures.md",
+                "file": "Deadlock.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "920e1f36eaf2d681",
+            "id": "26ea19b3af15bd89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deadlock.md",
+                "file": "OS Memory Protection.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5bb3a00025721dbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6bed766edd97b8df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Systems Architectures.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -72,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spooling",
+                "query": "tag:#CS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -129,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deadlock.md",
+                "file": "Computer Systems Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,24 +183,29 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "920e1f36eaf2d681",
+  "active": "6bed766edd97b8df",
   "lastOpenFiles": [
+    "Deadlock.md",
+    "CPU Scheduling Algorithms.md",
+    "Computer Systems Architectures.md",
+    "Operating Systems (OSs).md",
+    "OS Memory Protection.md",
+    "History of OSs.md",
+    "Operating Systems (OSs).md~",
+    "Computer Systems Architectures.md~",
+    "System Resources.md",
+    "4913",
+    "AI.md",
+    "AI.md~",
+    "Haskell Data Types.md",
     "Deadlock.md~",
     "OS Scheduling.md~",
     "OS Scheduling.md",
-    "Deadlock.md",
-    "CPU Scheduling Algorithms.md",
     "CPU Scheduling Algorithms.md~",
-    "4913",
-    "Computer Systems Architectures.md",
     "Attachments/Pasted image 20240323175417.png",
-    "System Resources.md",
-    "History of OSs.md",
     "Pipelining and Superscalar Architecture.md",
     "OS Processes.md",
-    "OS Memory Protection.md",
     "Registers.md",
-    "Operating Systems (OSs).md",
     "OS Processes.md~",
     "Attachments/Pasted image 20240306201434.png",
     "Attachments/Pasted image 20240306195625.png",
@@ -186,14 +215,10 @@
     "publish.css~",
     "publish.css",
     "Memory Architectures.md",
-    "History of OSs.md~",
-    "OS Memory Protection.md~",
     "OS Modes and Rings.md",
-    "OS Modes and Rings.md~",
     "Attachments/Pasted image 20240302153345.png",
     "Attachments/Pasted image 20240302143154.png",
     "Attachments/Pasted image 20240302123740.png",
-    "OS Modes.md~",
     "IO.md",
     "Attachments/Pasted image 20240301201453.png",
     "Attachments/Pasted image 20240301192601.png",
@@ -205,8 +230,6 @@
     "Counters.md",
     "Implementing Arithmetic Using Combinatorial Logic.md",
     "Fetch-Decode-Execute (FDE) Cycle.md",
-    "Control Instructions.md",
-    "Karnaugh Maps.md",
     "Untitled.canvas"
   ]
 }

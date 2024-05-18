@@ -6,6 +6,7 @@ links:
   - "[[Computer Systems Architectures]]"
 presentations:
   - W21_S1-2
+times revised: 0
 ---
 # Operating Systems (OSs)
 - An **operating system** (also an **OS**, the **kernel** or **monitor**) is a program which essentially:
@@ -37,3 +38,6 @@ presentations:
     4. **Stability**
     5. **Suitability for the task in hand**
 
+# Topics
+- [[./System Resources.md | System resources]]
+- [[./History of OSs.md | History]]

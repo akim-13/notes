@@ -22,7 +22,7 @@ links:
 |  21  | <span style="color:green;">2.5/2.5</span>   |  [Slides](https://people.bath.ac.uk/masrjb/CourseNotes/cm12002.html) *1*, *2*, and the beginning of *3*.        |
 |  22  | <span style="color:green;">2/2</span>   | Slides *3* and *4*.         |
 |  23  | <span style="color:green;">2/2</span>   | Slides *5* and *6*.         |
-|  24  | <span style="color:red;">0/2</span>   | Slides *7* and *8*.         |
+|  24  | <span style="color:red;">1/2</span>   | Slides *7* and *8*.         |
 
 
 [^note]: The elements of the numeration system are that:
@@ -47,6 +47,9 @@ a point is used to denote this place.
 - [[IO]].
 - [[Boolean Logic and Circuits]].
 
+# Operating Systems
+- [[./Operating Systems (OSs).md | OSs]].
+
 # Unsorted
 ## Shared Memory MIMD
 - **Shared memory MIMD** is becoming dominant in general purpose computing, due to the diminishing returns on building larger/faster uniprocessors.
@@ -62,19 +65,19 @@ $$ 134_8 = 1 \times 8^2 + 3 \times 8^1 + 4 \times 8^0 = 92_{10} $$
 
 - To **convert decimal to binary**, divide the given number by two^[If the number is odd, first subtract one and then divide it by two.], recording each remainder. Then write down the remainders starting from the bottom; this is the result. For example, converting 167 to binary:
 
-    | DEC  | BIN |
-    | ---- | --- |
-    | 167  | 1   |
-    | 83   | 1   |
-    | 41   | 1   |
-    | 20   | 0   |
-    | 10   | 0   |
-    | 5    | 1   |
-    | 2    | 0   |
-    | 1    | 1   |
-    | 0    | 0   |
+| DEC  | BIN |
+| ---- | --- |
+| 167  | 1   |
+| 83   | 1   |
+| 41   | 1   |
+| 20   | 0   |
+| 10   | 0   |
+| 5    | 1   |
+| 2    | 0   |
+| 1    | 1   |
+| 0    | 0   |
 
-    Starting from the bottom and omitting the preceding zero, the result is $167_{10} = 10100111_2$.
+Starting from the bottom and omitting the preceding zero, the result is $167_{10} = 10100111_2$.
 
 - For reference, the **first 16 binary and hexadecimal numbers** are:
 

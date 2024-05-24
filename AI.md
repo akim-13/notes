@@ -83,61 +83,60 @@ presentations: W7
 
 
 ## Table of Definitions
-
-| Term/Notion | Definition |
-|-------------|------------|
-| Frontier | The collection of all states that have been generated but have not yet been explored |
-| Complete search algorithm | A search algorithm is called complete if it is guaranteed to find a solution (assuming one exists).|
-| Optimal search algorithm | An algorithm is optimal if it guarantees to find the best solution according to the given cost function.|
-| Optimal solution | An optimal solution refers to the best possible solution to a problem according to a specified criterion, usually minimizing or maximizing some cost function. |
-| Optimally efficient solution | An optimally efficient solution refers to the efficiency of the algorithm used to find the solution, focusing on minimizing computational resources like time or memory (the solution itself might not necessarily be optimal). |
-| All properties of BFS, DFS and IDS | See the completeness/optimality/time/space complexity table. |
-| Admissible heuristic | A heuristic is admissible if it never overestimates the cost to reach the goal state.|
-| Consistent heuristic | $h(n) \leq c + h(n')$ |
-| A* is optimal when | it uses an admissible heuristic. |
-| A* is optimally efficient when | it uses a consistent heuristic. |
-| A* space complexity type | Exponential |
-| Elements of the formal definition of CSPs | 1. A set of variables<br>2. A set of domains specifying the values each variable can take<br>3. A set of constraints that specifies the values that the variables are allowed to have collectively|
-| State | A state is an assignment of values to all or some of the variables.|
-| Complete and partial states | A state is called complete if it assigns all the variables, and partial if not.|
-| Consistent state | A state is called consistent if it does not violate the constraints. |
-| Solution (CSP context) | A solution is a state which is complete and consistent.|
-| MRV heuristic | "One option is to choose the variable with the fewest legal values..."|
-| LCV heuristic| The Least Constraining Value heuristic tells us that we should select the value which constrains the fewest other values.|
-| Utility function | A function that assigns values to final states. |
-| Atomic sentence |A logically irreducible statement which can be either true or false. |
-| Model | A full assignment of truth values to atomic sentences. |
-| $\alpha \models \beta$| We write $\alpha \models \beta$ (entails) if in every model in which $\alpha$ is true, $\beta$ is also true. |
-| $KB$ | We can summarize the information we know about the world in a set of sentences (facts, rules, etc). This set is known as a Knowledge Base abbreviated $KB$. |
-| $KB \models \alpha$| We write $KB \models \alpha$ if every possible model where every sentence in the knowledge base is true, then $\alpha$ is true|
-| Model checking | It is used to determine if $KB \models \alpha$ by checking all possible worlds in which all the sentences in $KB$ are true (i.e. there are no contradictions). If $\alpha$ is true in all of them, then $KB \models \alpha$.|
-| $KB \vdash_i \alpha$ | $\alpha$ is derived from the $KB$ using a given algorithm $i$.|
-| An algorithm $i$ is called sound | If $KB \vdash_i \alpha$ always means that $KB \models \alpha$.|
-| An algorithm $i$ is called complete |If $KB \models \alpha$ always means that $KB \vdash_i \alpha$. |
-| Soundness, completeness and complexity of model checking | Sound, complete, exponential — there are $2^n$ models if we have $n$ atomic sentences. |
-| Proof sentence | a set of inference rules.  |
-| CNF | Conjunctive Normal Form — conjunction of disjunctions of literals.|
-| Resolution inference rule | $\frac{A_1 \lor A_2 \lor \ldots \lor A_n \lor B \quad \neg B \lor C_1 \lor C_2 \lor \ldots \lor C_m}{A_1 \lor A_2 \lor \ldots \lor A_n \lor C_1 \lor C_2 \lor \ldots \lor C_m}$|
-| Resolution proof is sound and complete when | All sentences are in CNF. |
-| Modus Ponens | $\frac{P \rightarrow Q \quad P}{Q}$|
-| Contraposition | $(P \rightarrow Q) \equiv (\neg Q \rightarrow \neg P)$|
-| Biconditional elimination | $(P \leftrightarrow Q) \equiv ((P \rightarrow Q) \land (Q \rightarrow P))$|
-| Outcome a.k.a. ...| Realization is a possible result of a single trial.|
-| Sample space | The set of all possible outcomes|
-| Event | A subset of the sample space, i.e. a set of one or more outcomes from the sample space. |
-| Probability of an event | The sum of the probabilities of each of the outcomes in the sample space where the event holds. |
-| Product rule for probability | $P(X_1, X_2, X_3) = P(X_1) \cdot P(X_2 \mid X_1) \cdot P(X_3 \mid X_1, X_2)$|
-| Product rule for probability for independent variables | $P(X_1, X_2, X_3) = P(X_1) \cdot P(X_2) \cdot P(X_3)$ |
-| Marginalization (sum rule) | $p(X) = \sum_Y p(X,Y) = \sum_Y p(X \mid Y)p(Y)$ |
-| Bayes' rule | $P(X \mid Y) = \frac{P(Y \mid X) \cdot P(X)}{P(Y)}$|
-| Markov property | Systems with the Markov Property are “memoryless” – knowing how a particular state was arrived adds no information to what will happen next.|
-| MDP | A Markov Decision Process consists of:<br>- A set of **states**: $\{s_0, s_1, \ldots\}$<br>- A set of **actions** $A(s)$ from each state $s$: $\{a_{s1}, a_{s2}, \ldots\}$<br>- A **transition model** – a transition probability for each set of action and state: $p(s_{t+1} \mid s_t, a_t)$<br>- A **reward** for each transition: $r(s_{t+1}, s_t, a_t)$ |
-| Discounted return | $G_t = r_{t+1} + \gamma r_{t+2} + \gamma^2 r_{t+3} + \gamma^3 r_{t+4} + \cdots = \sum_{k=0}^{\infty} \gamma^k r_{t+k+1}$ |
-| Objective function for an MDP policy (and what to do with it)| discounted return, maximize |
-| State-value function | $V^\pi(s) = \mathbb{E}_\pi [G_t \mid S_t = s]$ |
-| The Bellman equation | $V^\pi(s) = \sum_a \pi(a \mid s) \sum_{r, s'} p(r, s' \mid a, s) \cdot \left( r + \gamma V^\pi(s') \right)$ |
-| The Bellman optimality equation| $V^*(s) = \max_a \sum_{r, s'} p(r, s' \mid a, s) \left( r + \gamma V^*(s') \right)$ |
-| Fundamental assumptions in ML | 1. Similar Feature Values and Similar Outputs —  If two observations have similar feature values (e.g., length of tail, weight, length of ears), it is assumed that their outputs will also be similar or the same (e.g., the type of animal).<br>2. Smoothness —  if observations are close in the input space (i.e., their features are similar), their outputs will also be close in the output space |
-| Reasons for bias in supervised learning | Bias in society, relying on prior beliefs, unbalanced datasets. |
-| Supervised learning | compare observations/inputs against each other to try to separate them in terms of the target – our aim is to distinguish between different inputs such that this helps to distinguish between targets. |
-| Unsupervised learning | we do not have labels or do not care about the labels. We wish to gain insights into what is described in the dataset. We wish to gain understanding of the phenomenon|
+| Term/Notion | Definition | Revised |
+|-------------|------------|:-------:|
+| Frontier | <details><summary></summary>The collection of all states that have been generated but have not yet been explored</details> | <input type="checkbox" /> |
+| Complete search algorithm | <details><summary></summary>A search algorithm is called complete if it is guaranteed to find a solution (assuming one exists).</details> | <input type="checkbox" /> |
+| Optimal search algorithm | <details><summary></summary>An algorithm is optimal if it guarantees to find the best solution according to the given cost function.</details> | <input type="checkbox" /> |
+| Optimal solution | <details><summary></summary>An optimal solution refers to the best possible solution to a problem according to a specified criterion, usually minimizing or maximizing some cost function.</details> | <input type="checkbox" /> |
+| Optimally efficient solution | <details><summary></summary>An optimally efficient solution refers to the efficiency of the algorithm used to find the solution, focusing on minimizing computational resources like time or memory (the solution itself might not necessarily be optimal).</details> | <input type="checkbox" /> |
+| All properties of BFS, DFS and IDS | <details><summary></summary>See the completeness/optimality/time/space complexity table.</details> | <input type="checkbox" /> |
+| Admissible heuristic | <details><summary></summary>A heuristic is admissible if it never overestimates the cost to reach the goal state.</details> | <input type="checkbox" /> |
+| Consistent heuristic | <details><summary></summary>$h(n) \leq c + h(n')$</details> |<input type="checkbox" /> |
+| A* is optimal when | <details><summary></summary>it uses an admissible heuristic.</details> | <input type="checkbox" /> |
+| A* is optimally efficient when | <details><summary></summary>it uses a consistent heuristic.</details> | <input type="checkbox" /> |
+| A* space complexity type | <details><summary></summary>Exponential</details> |<input type="checkbox" /> |
+| Elements of the formal definition of CSPs | <details><summary></summary>1. A set of variables<br>2. A set of domains specifying the values each variable can take<br>3. A set of constraints that specifies the values that the variables are allowed to have collectively</details> | <input type="checkbox" /> |
+| State | <details><summary></summary>A state is an assignment of values to all or some of the variables.</details> | <input type="checkbox" /> |
+| Complete and partial states | <details><summary></summary>A state is called complete if it assigns all the variables, and partial if not.</details> | <input type="checkbox" /> |
+| Consistent state | <details><summary></summary>A state is called consistent if it does not violate the constraints.</details> | <input type="checkbox" /> |
+| Solution (CSP context) | <details><summary></summary>A solution is a state which is complete and consistent.</details> | <input type="checkbox" /> |
+| MRV heuristic | <details><summary></summary>"One option is to choose the variable with the fewest legal values..."</details> | <input type="checkbox" /> |
+| LCV heuristic| <details><summary></summary>The Least Constraining Value heuristic tells us that we should select the value which constrains the fewest other values.</details> | <input type="checkbox" /> |
+| Utility function | <details><summary></summary>A function that assigns values to final states.</details> | <input type="checkbox" /> |
+| Atomic sentence | <details><summary></summary>A logically irreducible statement which can be either true or false.</details> | <input type="checkbox" /> |
+| Model | <details><summary></summary>A full assignment of truth values to atomic sentences.</details> | <input type="checkbox" /> |
+| $\alpha \models \beta$| <details><summary></summary>We write $\alpha \models \beta$ (entails) if in every model in which $\alpha$ is true, $\beta$ is also true.</details> | <input type="checkbox" /> |
+| $KB$ | <details><summary></summary>We can summarize the information we know about the world in a set of sentences (facts, rules, etc). This set is known as a Knowledge Base abbreviated $KB$.</details> | <input type="checkbox" /> |
+| $KB \models \alpha$| <details><summary></summary>We write $KB \models \alpha$ if every possible model where every sentence in the knowledge base is true, then $\alpha$ is true</details> | <input type="checkbox" /> |
+| Model checking | <details><summary></summary>It is used to determine if $KB \models \alpha$ by checking all possible worlds in which all the sentences in $KB$ are true (i.e. there are no contradictions). If $\alpha$ is true in all of them, then $KB \models \alpha$.</details> | <input type="checkbox" /> |
+| $KB \vdash_i \alpha$ | <details><summary></summary>$\alpha$ is derived from the $KB$ using a given algorithm $i$.</details> | <input type="checkbox" /> |
+| An algorithm $i$ is called sound | <details><summary></summary>If $KB \vdash_i \alpha$ always means that $KB \models \alpha$.</details> | <input type="checkbox" /> |
+| An algorithm $i$ is called complete | <details><summary></summary>If $KB \models \alpha$ always means that $KB \vdash_i \alpha$.</details> | <input type="checkbox" /> |
+| Soundness, completeness and complexity of model checking | <details><summary></summary>Sound, complete, exponential — there are $2^n$ models if we have $n$ atomic sentences.</details> | <input type="checkbox" /> |
+| Proof system | <details><summary></summary>a set of inference rules.</details> |<input type="checkbox" /> |
+| CNF | <details><summary></summary>Conjunctive Normal Form — conjunction of disjunctions of literals.</details> | <input type="checkbox" /> |
+| Resolution inference rule | <details><summary></summary>$\frac{A_1 \lor A_2 \lor \ldots \lor A_n \lor B \quad \neg B \lor C_1 \lor C_2 \lor \ldots \lor C_m}{A_1 \lor A_2 \lor \ldots \lor A_n \lor C_1 \lor C_2 \lor \ldots \lor C_m}$</details> | <input type="checkbox" /> |
+| Resolution proof is sound and complete when | <details><summary></summary>All sentences are in CNF.</details> | <input type="checkbox" /> |
+| Modus Ponens | <details><summary></summary>$\frac{P \rightarrow Q \quad P}{Q}$</details> |<input type="checkbox" /> |
+| Contraposition | <details><summary></summary>$(P \rightarrow Q) \equiv (\neg Q \rightarrow \neg P)$</details> | <input type="checkbox" /> |
+| Biconditional elimination | <details><summary></summary>$(P \leftrightarrow Q) \equiv ((P \rightarrow Q) \land (Q \rightarrow P))$</details> | <input type="checkbox" /> |
+| Outcome a.k.a. ...| <details><summary></summary>Realization is a possible result of a single trial.</details> | <input type="checkbox" /> |
+| Sample space | <details><summary></summary>The set of all possible outcomes</details> |<input type="checkbox" /> |
+| Event | <details><summary></summary>A subset of the sample space, i.e. a set of one or more outcomes from the sample space.</details> | <input type="checkbox" /> |
+| Probability of an event | <details><summary></summary>The sum of the probabilities of each of the outcomes in the sample space where the event holds.</details> | <input type="checkbox" /> |
+| Product rule for probability | <details><summary></summary>$P(X_1, X_2, X_3) = P(X_1) \cdot P(X_2 \mid X_1) \cdot P(X_3 \mid X_1, X_2)$</details> | <input type="checkbox" /> |
+| Product rule for probability for independent variables | <details><summary></summary>$P(X_1, X_2, X_3) = P(X_1) \cdot P(X_2) \cdot P(X_3)$</details> | <input type="checkbox" /> |
+| Marginalization (sum rule) | <details><summary></summary>$p(X) = \sum_Y p(X,Y) = \sum_Y p(X \mid Y)p(Y)$</details> | <input type="checkbox" /> |
+| Bayes' rule | <details><summary></summary>$P(X \mid Y) = \frac{P(Y \mid X) \cdot P(X)}{P(Y)}$</details> | <input type="checkbox" /> |
+| Markov property | <details><summary></summary>Systems with the Markov Property are “memoryless” – knowing how a particular state was arrived adds no information to what will happen next.</details> | <input type="checkbox" /> |
+| MDP | <details><summary></summary>A Markov Decision Process consists of:<br>- A set of **states**: $\{s_0, s_1, \ldots\}$<br>- A set of **actions** $A(s)$ from each state $s$: $\{a_{s1}, a_{s2}, \ldots\}$<br>- A **transition model** – a transition probability for each set of action and state: $p(s_{t+1} \mid s_t, a_t)$<br>- A **reward** for each transition: $r(s_{t+1}, s_t, a_t)$</details> | <input type="checkbox" /> |
+| Discounted return | <details><summary></summary>$G_t = r_{t+1} + \gamma r_{t+2} + \gamma^2 r_{t+3} + \gamma^3 r_{t+4} + \cdots = \sum_{k=0}^{\infty} \gamma^k r_{t+k+1}$</details> | <input type="checkbox" /> |
+| Objective function for an MDP policy (and what to do with it)| <details><summary></summary>discounted return, maximize</details> | <input type="checkbox" /> |
+| State-value function | <details><summary></summary>$V^\pi(s) = \mathbb{E}_\pi [G_t \mid S_t = s]$</details> | <input type="checkbox" /> |
+| The Bellman equation | <details><summary></summary>$V^\pi(s) = \sum_a \pi(a \mid s) \sum_{r, s'} p(r, s' \mid a, s) \cdot \left( r + \gamma V^\pi(s') \right)$</details> | <input type="checkbox" /> |
+| The Bellman optimality equation| <details><summary></summary>$V^*(s) = \max_a \sum_{r, s'} p(r, s' \mid a, s) \left( r + \gamma V^*(s') \right)$</details> | <input type="checkbox" /> |
+| Fundamental assumptions in ML | <details><summary></summary>1. Similar Feature Values and Similar Outputs —  If two observations have similar feature values (e.g., length of tail, weight, length of ears), it is assumed that their outputs will also be similar or the same (e.g., the type of animal).<br>2. Smoothness —  if observations are close in the input space (i.e., their features are similar), their outputs will also be close in the output space</details> | <input type="checkbox" /> |
+| Reasons for bias in supervised learning | <details><summary></summary>Bias in society, relying on prior beliefs, unbalanced datasets.</details> | <input type="checkbox" /> |
+| Supervised learning | <details><summary></summary>compare observations/inputs against each other to try to separate them in terms of the target – our aim is to distinguish between different inputs such that this helps to distinguish between targets.</details> | <input type="checkbox" /> |
+| Unsupervised learning | <details><summary></summary>we do not have labels or do not care about the labels. We wish to gain insights into what is described in the dataset. We wish to gain understanding of the phenomenon</details> | <input type="checkbox" /> |

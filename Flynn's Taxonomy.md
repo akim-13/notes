@@ -9,8 +9,8 @@ links:
 # Flynn's Taxonomy^[**Taxonomy** is a classification or organization scheme.]
 |                                         | **<u>S</u>ingle <u>D</u>ata Stream** | **<u>M</u>ultiple <u>D</u>ata Streams** |
 |-----------------------------------------|--------------------------------------|-----------------------------------------|
-| **<u>S</u>ingle <u>I</u>nstruction**    | SISD                                 | MISD                                    |
-| **<u>M</u>ultiple <u>I</u>nstructions** | SIMD                                 | MIMD                                    |
+| **<u>S</u>ingle <u>I</u>nstruction**    | SISD                                 | SISD                                    |
+| **<u>M</u>ultiple <u>I</u>nstructions** | MISD                                 | MIMD                                    |
 
 - **SISD** (Single Instruction, Single Data) is an example of a uniprocessor architecture, for instance classical [[./Harvard Architecture.md | Harvard]] or [[./Von Neumann Architecture.md | Von Neumann]] architectures.
 

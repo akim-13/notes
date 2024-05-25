@@ -9,7 +9,7 @@ links: "[[Computer Systems Architectures]]"
     - **Decoding phase** — the binary instruction are translated into a set of signals by the instruction decoder to control other parts of the CPU to perform the required operation.
     - **Execution phase** — accessing the operands (if any) and carrying out the operation. This and previous phases **vary from instruction to instruction**.
 
-- The following **example** demonstrates how an **addition instruction** might be carried out:
+- The following **example** demonstrates how a **load instruction** might be carried out:
     - **Fetch**:
         1. Contents of the PC are placed in the MA (**PC→MA**), setting the store location of the next instruction.
         2. Contents of the cell whose address is in MA are placed in the MB (**STORE→MB**). This gets the contents of the cell.
@@ -36,7 +36,7 @@ links: "[[Computer Systems Architectures]]"
         2. **Operand** — any object that can be manipulated by opcode. In this example the `D5` data register is the *first operand*. 3 bits are used to be able to represent $2^3 = 8$ registers.
         3. **The size** of the data that the instruction operates on. This size determines how many bits of the data registers or memory the instruction will process. This operation size is critical because it tells the CPU how to interpret the data it's working with, ensuring that the correct amount of data is read from or written to the registers or memory. The possible values for the size are:
         ![[Attachments/Pasted image 20231121163158.png]]
-        Where a byte is 8 bits, a word is 16 bits and longword is 32 bits. So `101` in this architecture means "add words to register".
+        Where a byte is 8 bits, a word is 16 bits and longword is 32 bits. So `001` in this architecture means "add words to register".
         4. Additional information.
     2. **Extension word** includes more additional information. In this case it points to an address, however it could also store a value, depending on the addressing mode (more on that later): `0001001000000010` = `$1202`. This is the *second operand*.
 

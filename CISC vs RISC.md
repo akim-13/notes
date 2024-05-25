@@ -8,7 +8,7 @@ presentations:
   - W08_L02_P01
 ---
 # CISC vs RISC
-| Feature                       | CISC (Complex Instruction Set Computer)                                            | RISC (Complex Instruction Set Computer)                                              |
+| Feature                       | CISC (Complex Instruction Set Computer)                                            | RISC (Reduced Instruction Set Computer)                                              |
 |:-------------------------------:|:--------------------------------------------------:|:---------------------------------------------------:|
 | Instruction Complexity        | More powerful instructions                       | Simpler instructions                              |
 | Decoding Complexity           | More complicated to decode instructions          | Simple decoding                                   |
@@ -20,4 +20,4 @@ presentations:
 | Work for Compiler             | -                                                | Compiler needs to perform more work to convert high-level language code into RISC instruction statements |
 | General-Purpose Registers     | Fewer because decoding instructions require more transistors | -                                                 |
 | Usage                         | Computers, consoles, laptops, etc.                | Mainly in devices that have to save power (phones, tablets, etc.)
-| Examples | Intel, AMD, MC68000^[[[./Fetch-Decode-Execute (FDE) Cycle.md#^motorola]]], etc. | ARM, MIPS, PowerPC, etc.
+| Examples | Intel, AMD, [[./Fetch-Decode-Execute (FDE) Cycle.md#^motorola\|Motorola MC68000]], etc. | ARM, MIPS, PowerPC, etc.

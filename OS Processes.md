@@ -4,6 +4,7 @@ tags:
   - CS
 links:
   - "[[Operating Systems (OSs)]]"
+  - "[[Computer Systems Architectures]]"
 presentations:
   - W23_S5
 ---

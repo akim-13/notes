@@ -27,7 +27,6 @@ links: "[[Computer Systems Architectures]]"
     - However, the processors **communicate indirectly**, which is inefficient.
     - **Distributing** (before computation), and then **reassembling** the data (after computation) **is non-trivial**.
 
-***<span style="color:red">TODO: ASK IF FURTHER INFO IS REQUIRED FOR THESE COMPROMISE SOLUTIONS.</span>***
 - There are also **compromise solutions**, which utilize different elements of the main types:
     - **Virtual shared memory** — distributed memroy which "seems" shared to the CPUs. 
     - **Non-Uniform Memory Access (NUMA)** — shared memory which has parts which are faster for each CPU.

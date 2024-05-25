@@ -1,6 +1,9 @@
 ---
-tags: cs, cm12002
-links: 
+tags:
+  - cs
+  - cm12002
+links:
+  - "[[Computer Systems Architectures]]"
 ---
 # Harvard Architecture (HA)
 - **The HA** is an architeture with *separate* stores for data and instructions. 

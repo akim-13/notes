@@ -44,7 +44,7 @@ links:
     ![[Attachments/Pasted image 20231015195528.png]]
 
 - **ENIAC** *(1946)* - first electronic digital computer that was programmable and general purpose. 
-- **MONIAC** *(1949)* - an analogue computer which used fluidic* logic to model the workings of an economy.
+- **MONIAC** *(1949)* - an analogue computer which used fluidic logic to model the workings of an economy.
 
     ![[Attachments/Pasted image 20231015195212.png]]
 
@@ -81,7 +81,7 @@ links:
 
 ### Fourth Generation (1970s)
 - Charactirized by **Large Scale Integration (LSI)** - *10,000s* of transistors per chip.
-- Steve Jobs founded **Microsoft**.
+- Bill Gates founded **Microsoft**.
 - Steve Wozniak and Steve Jobs founded **Apple**.
 
 ### Fifth Generation (1980s)

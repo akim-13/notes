@@ -29,7 +29,7 @@ presentations:
 
 - **The order of 00, 01, 11 and 10 is important.** Starting from 00, the next binary number is constructed using [Gray code](https://en.wikipedia.org/wiki/Gray_code)^[TODO: Link to week 5 "Data representation".], i.e. only one bit changes.
 
-- Any adjacent squares of 1s represent a **grouping**. For example, a *grouping of 2* squares (see below) shows that the corresponding product terms differ in only one variable (the variable and its negation). Notice that in such case the value of this variable does not affect the resulting value of the formula, hence it can be *eliminated*:
+- Any adjacent squares of 1s represent a **grouping**. For example, a *grouping of 2* squares (see below) shows that the corresponding product terms differ in only one variable (the variable and its negation). Only groupings of size $2^n$ are valid. Notice that in such case the value of this variable does not affect the resulting value of the formula, hence it can be *eliminated*:
 
     ![[Attachments/Pasted image 20240206131125.png]]
 

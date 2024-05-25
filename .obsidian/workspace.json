@@ -22,32 +22,115 @@
             }
           },
           {
-            "id": "6a15a5e601987408",
+            "id": "66fca79da5229ea6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boolean Logic and Circuits.md",
+                "file": "Instructions.md",
                 "mode": "preview",
-                "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "543145d1fb8e5593",
+            "id": "93bd43dfe3d5a0cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Karnaugh Maps.md",
+                "file": "Flynn's Taxonomy.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "608974500881c796",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fetch-Decode-Execute (FDE) Cycle.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5d55ea29edbfab34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memory Architectures.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "283d524beb359955",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operand Addressing Modes.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0bd569bec620b09b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pipelining and Superscalar Architecture.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e9fdd94007b884bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Implementing Arithmetic Using Combinatorial Logic.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ebae55a245e57e86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Harvard Architecture.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b253c762adc29660",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Harvard Architecture.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -77,7 +160,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CS",
+                "query": "data representation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -134,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Karnaugh Maps.md",
+                "file": "Harvard Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,51 +246,51 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "543145d1fb8e5593",
+  "active": "b253c762adc29660",
   "lastOpenFiles": [
-    "Logical Connectives.md~",
+    "Harvard Architecture.md",
+    "Von Neumann Architecture.md",
+    "Computer Systems Architectures.md",
+    "Instructions.md",
+    "Implementing Arithmetic Using Combinatorial Logic.md",
+    "Pipelining and Superscalar Architecture.md",
+    "Operand Addressing Modes.md",
+    "Memory Architectures.md",
+    "Flynn's Taxonomy.md",
+    "Sequential Logic.md",
+    "Fetch-Decode-Execute (FDE) Cycle.md",
+    "Counters.md",
+    "Cache.md",
+    "IO.md",
+    "System Resources.md",
+    "Deadlock.md",
+    "Control Instructions.md",
+    "CISC vs RISC.md",
+    "OS Processes.md",
+    "Computer History.md",
+    "Programmed IO.md",
+    "C Pointers.md",
+    "C Basics.md",
     "Boolean Logic and Circuits.md",
     "Karnaugh Maps.md",
+    "Logical Connectives.md~",
     "Standard Sum of Products (SofP).md",
-    "Boolean Formulae.md",
-    "Logical Connectives.md",
-    "Computer Systems Architectures.md",
-    "Amdahl's Law.md",
-    "Deadlock.md",
-    "AI.md",
-    "C Pointers.md",
-    "OS Memory Protection.md",
     "AI.md~",
     "4913",
-    "CPU Scheduling Algorithms.md",
-    "Operating Systems (OSs).md",
-    "History of OSs.md",
     "Operating Systems (OSs).md~",
     "Computer Systems Architectures.md~",
-    "System Resources.md",
-    "Haskell Data Types.md",
     "Deadlock.md~",
     "OS Scheduling.md~",
-    "OS Scheduling.md",
     "CPU Scheduling Algorithms.md~",
     "Attachments/Pasted image 20240323175417.png",
-    "Pipelining and Superscalar Architecture.md",
-    "OS Processes.md",
-    "Registers.md",
     "OS Processes.md~",
     "Attachments/Pasted image 20240306201434.png",
     "Attachments/Pasted image 20240306195625.png",
     "Attachments/Pasted image 20240306195315.png",
-    "Operand Addressing Modes.md",
-    "Attachments/Solving Inequalities.md",
     "publish.css~",
-    "publish.css",
-    "Memory Architectures.md",
-    "OS Modes and Rings.md",
     "Attachments/Pasted image 20240302153345.png",
     "Attachments/Pasted image 20240302143154.png",
     "Attachments/Pasted image 20240302123740.png",
-    "IO.md",
     "Attachments/Pasted image 20240301201453.png",
     "Attachments/Pasted image 20240301192601.png",
     "Attachments/Pasted image 20240301192537.png",

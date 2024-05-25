@@ -41,7 +41,7 @@ presentations:
 - **To simplify a Boolean formula**, the following procedure may be used:
     1. Write it in the form of a **[[./Standard Sum of Products (SofP).md | SofP]]**;
     2. Plot the product terms on a **[[Karnaugh Maps]]**;
-    3. **Find** the *smallest* number of the *biggest* valid **groupings** that will encompass all of the marked squares (1s) of the Karnaugh map;
+    3. **Find** the *smallest* number of the *biggest* valid^[Grouping's size must be $2^n$.] **groupings** that will encompass all of the marked squares (1s) of the Karnaugh map;
     4. **Eliminate variables** from each grouping;
     5. Write down **the sum of resulting products**;
     6. **Factorise** if possible.

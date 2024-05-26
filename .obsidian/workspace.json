@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5ea5dee0497404db",
+        "id": "d468a3d39df30a4f",
         "type": "tabs",
         "children": [
           {
-            "id": "b291bfe9d0d27216",
+            "id": "0b3b27c569efcab6",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,31 +22,91 @@
             }
           },
           {
-            "id": "66fca79da5229ea6",
+            "id": "7a85aa24f22198ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Instructions.md",
+                "file": "Von Neumann Architecture.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "93bd43dfe3d5a0cb",
+            "id": "30b8b9a3ca5a1b0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flynn's Taxonomy.md",
+                "file": "Control Instructions.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "608974500881c796",
+            "id": "47f36ee37af8a927",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registers.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4d873ec3322db69c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sequential Logic.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "72415c7c82ca7b06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Counters.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b33e079e25713acf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Von Neumann Architecture.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5a9d14945b8a606f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Harvard Architecture.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f7dbcec56e605f7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,81 +116,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "5d55ea29edbfab34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memory Architectures.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "283d524beb359955",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operand Addressing Modes.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0bd569bec620b09b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pipelining and Superscalar Architecture.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e9fdd94007b884bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Implementing Arithmetic Using Combinatorial Logic.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ebae55a245e57e86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Harvard Architecture.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b253c762adc29660",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Harvard Architecture.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +147,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "data representation",
+                "query": "motoro",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -217,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Harvard Architecture.md",
+                "file": "Computer Systems Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,35 +233,35 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b253c762adc29660",
+  "active": "0b3b27c569efcab6",
   "lastOpenFiles": [
-    "Harvard Architecture.md",
-    "Von Neumann Architecture.md",
+    "Fetch-Decode-Execute (FDE) Cycle.md",
     "Computer Systems Architectures.md",
-    "Instructions.md",
+    "Control Instructions.md",
+    "Programmed IO.md",
+    "IO.md",
+    "Von Neumann Architecture.md",
+    "Harvard Architecture.md",
+    "Counters.md",
+    "Registers.md",
+    "Sequential Logic.md",
     "Implementing Arithmetic Using Combinatorial Logic.md",
+    "Boolean Logic and Circuits.md",
+    "Instructions.md",
     "Pipelining and Superscalar Architecture.md",
     "Operand Addressing Modes.md",
     "Memory Architectures.md",
     "Flynn's Taxonomy.md",
-    "Sequential Logic.md",
-    "Fetch-Decode-Execute (FDE) Cycle.md",
-    "Counters.md",
     "Cache.md",
-    "IO.md",
     "System Resources.md",
     "Deadlock.md",
-    "Control Instructions.md",
     "CISC vs RISC.md",
     "OS Processes.md",
     "Computer History.md",
-    "Programmed IO.md",
     "C Pointers.md",
     "C Basics.md",
-    "Boolean Logic and Circuits.md",
     "Karnaugh Maps.md",
     "Logical Connectives.md~",
-    "Standard Sum of Products (SofP).md",
     "AI.md~",
     "4913",
     "Operating Systems (OSs).md~",

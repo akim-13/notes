@@ -8,8 +8,7 @@ presentations:
   - W09_L02_P01
 ---
 # IO
-- **Input/Output (IO)** is any transfer of information beyond the CPU and main memory (RAM).
-
+- **Input/Output (IO)** refers to any transfer of information between the CPU and external devices or systems, including peripheral devices, network devices, etc.
 - **External devices** (or **peripheral devices**) provide a means of exchanging data between the computer's external environment and the computer itself.
     - They attach to the computer through a link to an **IO module** —  a hardware component in a computer system that acts as an intermediary between the CPU and the peripheral devices
     - There are three **categories** of external devices:

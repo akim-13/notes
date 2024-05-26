@@ -12,9 +12,9 @@ links:
 |  04  | <span style="color:green;">4/4</span> | Note this[^note] in [[Computer Systems Architectures.md]]. |
 |  05  |  <span style="color:red;">0/5</span>  | Data representation. |
 |  06  | <span style="color:green;">0/0</span> | Consolidation week.         |
-|  07  |  <span style="color:red;">-/-</span>  |          |
-|  08  |  <span style="color:red;">-/-</span>  |          |
-|  09  |  <span style="color:red;">2/3</span>  | *L03_P01* interrupts and DMA.        |
+|  07  |  <span style="color:red;">1/3</span>  | *L01_P01* and *P02* instructions.          |
+|  08  |  <span style="color:green;">3/3</span>  |          |
+|  09  |  <span style="color:red;">2/3</span>  | *L03_P01* interrupt driven IO and DMA IO.        |
 |  10  | <span style="color:green;">3/3</span> |          |
 |  11  | <span style="color:green;">3/3</span> |          |
 |  19  | <span style="color:green;">3/3</span> |          |
